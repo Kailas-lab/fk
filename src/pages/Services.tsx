@@ -118,7 +118,7 @@ const Services = () => {
   ];
 
   const clientLogos = [
-    'TCS', 'Infosys', 'Wipro', 'Accenture', 'IBM', 'Microsoft'
+    'TCS', 'Infosys', 'Wipro', 'Accenture', 'IBM', 'Microsoft', 'Google', 'EY', 'Bijus','Flipkart','Amazon','Alstom'
   ];
 
   return (
@@ -234,7 +234,7 @@ const Services = () => {
         <div className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Trusted by Leading Organizations
+              Our Alumini's are work at Fortune 500
             </h2>
           </div>
 

@@ -7,17 +7,17 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
+      name: 'Shanmuga Vadivu',
       role: 'Full Stack Developer',
       company: 'Tech Solutions Inc.',
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
       rating: 5,
-      text: 'Krouncha Waves completely transformed my career! The Python programming course was incredibly well-structured, and the hands-on projects gave me the confidence to land my dream job as a Full Stack Developer.',
+      text: 'Future Key completely transformed my career! The Python programming course was incredibly well-structured, and the hands-on projects gave me the confidence to land my dream job as a Full Stack Developer.',
       course: 'Python Programming'
     },
     {
       id: 2,
-      name: 'Michael Chen',
+      name: 'Karthikeyan S',
       role: 'Data Scientist',
       company: 'Analytics Pro',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -27,8 +27,8 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: 'Emily Rodriguez',
-      role: 'Digital Marketing Manager',
+      name: 'Valliyammai M',
+      role: 'Digital Marketing Intern',
       company: 'Creative Agency',
       image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
       rating: 5,
@@ -37,12 +37,12 @@ const Testimonials = () => {
     },
     {
       id: 4,
-      name: 'David Thompson',
+      name: 'Krounchan Shivan',
       role: 'Machine Learning Engineer',
       company: 'AI Innovations',
       image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400',
       rating: 5,
-      text: 'The Machine Learning course at Krouncha Waves is outstanding! The depth of content and practical implementation exercises prepared me perfectly for my current role. Highly recommend to anyone serious about AI.',
+      text: 'The Machine Learning course at Future Key is outstanding! The depth of content and practical implementation exercises prepared me perfectly for my current role. Highly recommend to anyone serious about AI.',
       course: 'Machine Learning'
     }
   ];

@@ -74,23 +74,22 @@ const WorkflowSection = () => {
         {/* Desktop View - Horizontal Flow */}
         <div className="hidden lg:block">
           <div className="relative">
-            {/* Connection Line */}
-            <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-emerald-500 to-green-400 transform -translate-y-1/2 z-0"></div>
-            
             <div className="grid grid-cols-6 gap-4 relative z-10">
               {steps.map((step, index) => {
                 const Icon = step.icon;
                 return (
                   <div key={step.step} className="text-center">
                     <div className="relative mb-6">
-                      <div className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-2xl flex items-center justify-center mx-auto shadow-lg hover:scale-110 transition-transform duration-300`}>
+                      <div
+                        className={`w-20 h-20 bg-gradient-to-r ${step.color} rounded-2xl flex items-center justify-center mx-auto shadow-lg hover:scale-110 transition-transform duration-300`}
+                      >
                         <Icon className="h-10 w-10 text-white" />
                       </div>
                       <div className="absolute -top-2 -right-2 w-8 h-8 bg-white rounded-full flex items-center justify-center text-gray-900 font-bold text-sm shadow-lg">
                         {step.step}
                       </div>
                     </div>
-                    
+
                     <h3 className="text-lg font-bold text-white mb-2">{step.title}</h3>
                     <p className="text-gray-300 text-sm mb-3">{step.description}</p>
                     <p className="text-gray-400 text-xs leading-relaxed">{step.details}</p>
@@ -100,6 +99,7 @@ const WorkflowSection = () => {
             </div>
           </div>
         </div>
+
 
         {/* Mobile View - Vertical Flow */}
         <div className="lg:hidden space-y-8">
@@ -120,7 +120,7 @@ const WorkflowSection = () => {
                     <div className="w-0.5 h-12 bg-gradient-to-b from-emerald-500 to-green-400 mx-auto mt-4"></div>
                   )}
                 </div>
-                
+
                 <div className="flex-1 pt-2">
                   <h3 className="text-xl font-bold text-white mb-2">{step.title}</h3>
                   <p className="text-gray-300 mb-2">{step.description}</p>

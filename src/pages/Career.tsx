@@ -266,23 +266,23 @@ const Career = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: 'Priya Sharma',
-                role: 'Data Scientist at TCS',
-                package: '₹12 LPA',
+                name: 'Krounchan Shivan',
+                role: 'Machine Learning Engineer at AI Innovations',
+                package: '₹6 LPA',
                 course: 'Data Science Mastery',
                 image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
               },
               {
-                name: 'Rahul Kumar',
-                role: 'AI Engineer at Flipkart',
-                package: '₹15 LPA',
+                name: 'Karthikeyan S',
+                role: 'Data Scientist at Analytics Pro',
+                package: '₹8 LPA',
                 course: 'Machine Learning',
                 image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
               },
               {
-                name: 'Sneha Patel',
-                role: 'Digital Marketing Manager at Byju\'s',
-                package: '₹8 LPA',
+                name: 'Valliyammai M',
+                role: 'Digital Marketer at Creative Agency',
+                package: '₹5 LPA',
                 course: 'Digital Marketing Mastery',
                 image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400'
               }

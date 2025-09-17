@@ -117,7 +117,7 @@ const Contact = () => {
                   <div>
                     <h3 className="text-white font-semibold mb-1">Phone</h3>
                     <p className="text-gray-300">+91 8680870950</p>
-                    <p className="text-sm text-gray-400">Mon-Fri 9am-6pm EST</p>
+
                   </div>
                 </div>
 
@@ -140,19 +140,23 @@ const Contact = () => {
                 <h3 className="text-white font-semibold mb-4">Follow Us</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/futurekeyedu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 bg-gray-700 rounded-xl hover:bg-emerald-600 transition-colors duration-300"
                   >
                     <Linkedin className="h-6 w-6 text-gray-300 hover:text-white" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/futurekeyedu/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 bg-gray-700 rounded-xl hover:bg-emerald-600 transition-colors duration-300"
                   >
                     <Instagram className="h-6 w-6 text-gray-300 hover:text-white" />
                   </a>
-                  
                 </div>
+
               </div>
 
               {/* Office Hours */}
@@ -167,7 +171,7 @@ const Contact = () => {
                     <span>Weekdays</span>
                     <span>4:00 AM - 8:00 AM</span>
                   </div>
-                  
+
                 </div>
               </div>
             </div>
@@ -330,17 +334,19 @@ const Contact = () => {
               Find Us Here
             </h2>
             <div className="bg-gray-700 rounded-xl h-64 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="h-12 w-12 text-emerald-400 mx-auto mb-4" />
-                <p className="text-white font-semibold">Interactive Map</p>
-                <p className="text-gray-400 text-sm">
-                  Remote Location
-                </p>
-                <p className="text-emerald-400 text-sm mt-2">
-                  Map integration would go here
-                </p>
+              <div className="w-full h-full rounded-xl overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.640030145799!2d76.9792361!3d11.0146132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859f04b97cc1d%3A0x18dfad5b3a2fc783!2sFuture%20key%20%7C%20EduTech%20Services%20-%20PAN%20India!5e0!3m2!1sen!2sin!4v1694954082378!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
+
           </div>
         </div>
       </div>

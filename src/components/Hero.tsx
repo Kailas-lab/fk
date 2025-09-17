@@ -82,7 +82,7 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
               <div className="relative bg-white p-8 rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500">
                 <img
-                  src="/fk_final_logo_key.png"
+                  src="/fk_final_logo.png"
                   alt="Future Key Logo"
                   className="w-full h-auto object-contain"
                 />
