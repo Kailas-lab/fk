@@ -24,7 +24,11 @@ const Hero = () => {
           {/* Content */}
           <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
             <div className="inline-flex items-center px-4 py-2 bg-emerald-900/50 rounded-full text-emerald-400 text-sm font-medium mb-6 backdrop-blur-sm border border-emerald-800">
-              <span className="mr-2">🗝️</span>
+              <img 
+                src="/fk_final_logo.png"
+                alt="Future Key" 
+                className="h-4 w-auto mr-2"
+              />
               Your Virtual Space for Career Success
             </div>
             
@@ -58,16 +62,16 @@ const Hero = () => {
             {/* Stats */}
             <div className="flex flex-col sm:flex-row gap-8 mt-12 justify-center lg:justify-start">
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold text-emerald-400">1000+</div>
-                <div className="text-gray-400">Students</div>
+                <div className="text-3xl font-bold text-emerald-400">150+</div>
+                <div className="text-gray-400">Students Enrolled</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold text-emerald-400">50+</div>
-                <div className="text-gray-400">Courses</div>
+                <div className="text-3xl font-bold text-emerald-400">6+</div>
+                <div className="text-gray-400">Expert Instructors</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-3xl font-bold text-emerald-400">98%</div>
-                <div className="text-gray-400">Success Rate</div>
+                <div className="text-3xl font-bold text-emerald-400">10+</div>
+                <div className="text-gray-400">Customized Courses</div>
               </div>
             </div>
           </div>
@@ -75,12 +79,14 @@ const Hero = () => {
           {/* Hero Image */}
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-400 rounded-3xl transform rotate-6 scale-105 opacity-20"></div>
-              <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Students learning"
-                className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
-              />
+              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
+              <div className="relative bg-white p-8 rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500">
+                <img
+                  src="/fk_final_logo_key.png"
+                  alt="Future Key Logo"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
               
               {/* Floating Elements */}
               <div className="absolute -top-6 -left-6 bg-gradient-to-r from-emerald-500 to-green-400 p-4 rounded-2xl shadow-lg animate-bounce">

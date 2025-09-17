@@ -91,9 +91,9 @@ const WhyChooseUs = () => {
         {/* Stats Section */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
           {[
-            { number: '10,000+', label: 'Students Enrolled' },
-            { number: '50+', label: 'Expert Instructors' },
-            { number: '100+', label: 'Courses Available' },
+            { number: '150+', label: 'Students Enrolled' },
+            { number: '6+', label: 'Expert Instructors' },
+            { number: '10+', label: 'Courses Available' },
             { number: '98%', label: 'Success Rate' }
           ].map((stat, index) => (
             <div key={index} className="group">

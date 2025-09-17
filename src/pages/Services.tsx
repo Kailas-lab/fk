@@ -1,5 +1,5 @@
 import React from 'react';
-import { Building, GraduationCap, Users, BarChart3, Code, Database, TrendingUp, CheckCircle, ArrowRight } from 'lucide-react';
+import { Building, GraduationCap, Users, BarChart3, Code, Database, TrendingUp, CheckCircle, ArrowRight, Globe } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Services = () => {
@@ -71,6 +71,40 @@ const Services = () => {
       duration: '1-6 months',
       participants: '30+ projects',
       gradient: 'from-emerald-500 to-emerald-600'
+    },
+    {
+      id: 5,
+      title: 'Website Development',
+      description: 'Custom website development services for businesses and individuals using modern technologies.',
+      features: [
+        'Responsive web design',
+        'E-commerce solutions',
+        'Content management systems',
+        'SEO optimization',
+        'Performance optimization'
+      ],
+      icon: Globe,
+      image: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=800',
+      duration: '2-8 weeks',
+      participants: '20+ projects',
+      gradient: 'from-blue-500 to-blue-600'
+    },
+    {
+      id: 6,
+      title: 'Social Media Marketing',
+      description: 'Comprehensive social media marketing services to boost your online presence and engagement.',
+      features: [
+        'Social media strategy development',
+        'Content creation and curation',
+        'Community management',
+        'Paid advertising campaigns',
+        'Analytics and reporting'
+      ],
+      icon: TrendingUp,
+      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+      duration: 'Ongoing',
+      participants: '15+ clients',
+      gradient: 'from-pink-500 to-pink-600'
     }
   ];
 
@@ -202,9 +236,6 @@ const Services = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
               Trusted by Leading Organizations
             </h2>
-            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-              We've partnered with top companies to deliver exceptional training and analytics solutions
-            </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">

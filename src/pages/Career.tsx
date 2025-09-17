@@ -1,18 +1,48 @@
 import React from 'react';
-import { Briefcase, TrendingUp, Users, Award, CheckCircle, ArrowRight, Target, Building, Globe, Zap } from 'lucide-react';
+import { Briefcase, TrendingUp, Users, Award, CheckCircle, ArrowRight, Target, Building, Globe, Zap, BarChart3, Brain } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Career = () => {
   const careerPaths = [
     {
-      title: 'Software Developer',
-      description: 'Build applications and software solutions using modern programming languages and frameworks.',
+      title: 'Prompt Engineer',
+      description: 'Design and optimize AI prompts for large language models and AI systems to achieve desired outputs.',
       averageSalary: '₹6-12 LPA',
-      skills: ['Python', 'JavaScript', 'React', 'Node.js', 'Database Management'],
+      skills: ['AI/ML Understanding', 'Natural Language Processing', 'Python', 'Prompt Design', 'LLM Optimization'],
       companies: ['Google', 'Microsoft', 'Amazon', 'Flipkart', 'Zomato'],
       icon: Briefcase,
       growth: '22% growth expected',
       image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      title: 'Data Analyst',
+      description: 'Transform raw data into actionable insights using statistical analysis and visualization tools.',
+      averageSalary: '₹5-10 LPA',
+      skills: ['Excel', 'SQL', 'Power BI', 'Python', 'Statistical Analysis', 'Data Visualization'],
+      companies: ['Deloitte', 'EY', 'KPMG', 'PwC', 'Capgemini'],
+      icon: BarChart3,
+      growth: '28% growth expected',
+      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      title: 'AI Engineer',
+      description: 'Develop and implement artificial intelligence solutions and machine learning models for various applications.',
+      averageSalary: '₹10-18 LPA',
+      skills: ['Python', 'TensorFlow', 'PyTorch', 'Deep Learning', 'Computer Vision', 'NLP'],
+      companies: ['NVIDIA', 'Intel', 'IBM', 'Microsoft', 'OpenAI'],
+      icon: Brain,
+      growth: '40% growth expected',
+      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600'
+    },
+    {
+      title: 'Power BI Developer',
+      description: 'Create interactive dashboards and business intelligence solutions using Microsoft Power BI platform.',
+      averageSalary: '₹6-12 LPA',
+      skills: ['Power BI', 'DAX', 'Power Query', 'SQL', 'Data Modeling', 'Excel'],
+      companies: ['Microsoft', 'Accenture', 'Deloitte', 'TCS', 'Infosys'],
+      icon: Target,
+      growth: '25% growth expected',
+      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600'
     },
     {
       title: 'Data Scientist',
@@ -30,27 +60,17 @@ const Career = () => {
       averageSalary: '₹4-8 LPA',
       skills: ['SEO', 'Social Media Marketing', 'Content Strategy', 'Google Ads', 'Analytics'],
       companies: ['Byju\'s', 'Unacademy', 'Swiggy', 'Paytm', 'OYO'],
-      icon: Target,
+      icon: TrendingUp,
       growth: '18% growth expected',
       image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600'
-    },
-    {
-      title: 'Full Stack Developer',
-      description: 'Work on both frontend and backend development to create complete web applications.',
-      averageSalary: '₹7-14 LPA',
-      skills: ['HTML/CSS', 'JavaScript', 'React', 'Django', 'Database Design'],
-      companies: ['Razorpay', 'Freshworks', 'Zoho', 'PhonePe', 'Myntra'],
-      icon: Globe,
-      growth: '25% growth expected',
-      image: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=600'
     }
   ];
 
   const placementStats = [
     { number: '95%', label: 'Placement Rate' },
-    { number: '₹8.5 LPA', label: 'Average Package' },
-    { number: '500+', label: 'Students Placed' },
-    { number: '150+', label: 'Partner Companies' }
+    { number: '₹6.5 LPA', label: 'Average Package' },
+    { number: '50+', label: 'Students Placed' },
+    { number: '5+', label: 'Partner Companies' }
   ];
 
   const placementServices = [
@@ -68,6 +88,11 @@ const Career = () => {
       title: 'Portfolio Development',
       description: 'Build impressive portfolios showcasing your projects and skills.',
       icon: Briefcase
+    },
+    {
+      title: 'Industry Certifications',
+      description: 'Real-time industry certification guidance: PL-300, Oracle MySQL, MS Excel, and more.',
+      icon: Award
     },
     {
       title: 'Job Matching',
@@ -206,7 +231,7 @@ const Career = () => {
           </div>
 
           {/* Placement Services */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {placementServices.map((service, index) => {
               const Icon = service.icon;
               return (
@@ -249,9 +274,9 @@ const Career = () => {
               },
               {
                 name: 'Rahul Kumar',
-                role: 'Full Stack Developer at Flipkart',
+                role: 'AI Engineer at Flipkart',
                 package: '₹15 LPA',
-                course: 'Python Full Stack',
+                course: 'Machine Learning',
                 image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
               },
               {

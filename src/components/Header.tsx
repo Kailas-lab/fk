@@ -11,6 +11,7 @@ const Header = () => {
     { name: 'Courses', path: '/courses' },
     { name: 'Career', path: '/career' },
     { name: 'Services', path: '/services' },
+    { name: 'Franchise', path: '/franchise' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },
   ];
@@ -23,9 +24,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="p-2 bg-gradient-to-r from-emerald-500 to-green-400 rounded-lg group-hover:scale-110 transition-transform duration-300">
-              <Key className="h-6 w-6 text-white" />
-            </div>
+            <img 
+              src="/fk_final_logo_key.png" 
+              alt="Future Key Logo" 
+              className="h-10 w-auto group-hover:scale-110 transition-transform duration-300"
+            />
             <span className="text-xl font-bold text-white">Future Key</span>
           </Link>
 

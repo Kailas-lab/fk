@@ -5,6 +5,9 @@ import FeaturedCourses from '../components/FeaturedCourses';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Testimonials from '../components/Testimonials';
 import CTABanner from '../components/CTABanner';
+import StudentPopup from '../components/StudentPopup';
+import WorkflowSection from '../components/WorkflowSection';
+import StudentOfferButton from '../components/StudentOfferButton';
 
 const Home = () => {
   return (
@@ -12,9 +15,12 @@ const Home = () => {
       <Hero />
       <Accreditations />
       <FeaturedCourses />
+      <WorkflowSection />
       <WhyChooseUs />
       <Testimonials />
       <CTABanner />
+      <StudentPopup />
+      <StudentOfferButton />
     </>
   );
 };

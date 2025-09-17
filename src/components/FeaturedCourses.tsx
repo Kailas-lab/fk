@@ -8,7 +8,7 @@ const FeaturedCourses = () => {
       id: 1,
       title: 'Python Programming Fundamentals',
       description: 'Master Python from basics to advanced concepts with real-world projects and practical exercises.',
-      price: '499 INR',
+      price: '2499 INR',
       duration: '4 Saturdays',
       students: '34+',
       image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -20,7 +20,7 @@ const FeaturedCourses = () => {
       id: 2,
       title: 'Data Science Mastery',
       description: 'Learn data analysis, visualization, and machine learning techniques with hands-on projects.',
-      price: '599 INR',
+      price: '2499 INR',
       duration: '4 Saturdays',
       students: '85+',
       image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -32,7 +32,7 @@ const FeaturedCourses = () => {
       id: 3,
       title: 'Advanced Machine Learning',
       description: 'Dive deep into AI and ML algorithms with hands-on implementation and real-world case studies.',
-      price: '599 INR',
+      price: '2499 INR',
       duration: '4 Saturdays',
       students: '23+',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -44,7 +44,7 @@ const FeaturedCourses = () => {
       id: 4,
       title: 'Python Full Stack Development',
       description: 'Build modern web applications using Python, Django, databases, and deployment strategies.',
-      price: '499 INR',
+      price: '2499 INR',
       duration: '4 Saturdays',
       students: '9+',
       image: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -56,7 +56,7 @@ const FeaturedCourses = () => {
       id: 5,
       title: 'Digital Marketing',
       description: 'Learn SEO, social media marketing, content strategy, and digital advertising techniques.',
-      price: '399 INR',
+      price: '2499 INR',
       duration: '4 Saturdays',
       students: '76+',
       image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -156,8 +156,37 @@ const FeaturedCourses = () => {
                       {course.price}
                     </div>
                     <button className="group/btn px-6 py-2 bg-gradient-to-r from-emerald-500 to-green-400 text-white rounded-full font-medium hover:from-emerald-600 hover:to-green-500 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-emerald-500/25 flex items-center">
-                      Enroll Now
-                      <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                      {course.id === 1 ? (
+                        <Link to="/courses/python-programming" className="flex items-center">
+                          Enroll Now
+                          <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                        </Link>
+                      ) : course.id === 2 ? (
+                        <Link to="/courses/data-science" className="flex items-center">
+                          Enroll Now
+                          <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                        </Link>
+                      ) : course.id === 3 ? (
+                        <Link to="/courses/machine-learning" className="flex items-center">
+                          Enroll Now
+                          <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                        </Link>
+                      ) : course.id === 4 ? (
+                        <Link to="/courses/full-stack" className="flex items-center">
+                          Enroll Now
+                          <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                        </Link>
+                      ) : course.id === 5 ? (
+                        <Link to="/courses/digital-marketing" className="flex items-center">
+                          Enroll Now
+                          <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                        </Link>
+                      ) : (
+                        <>
+                          Enroll Now
+                          <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform duration-300" />
+                        </>
+                      )}
                     </button>
                   </div>
                 </div>

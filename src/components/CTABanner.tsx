@@ -15,9 +15,11 @@ const CTABanner = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Icon */}
           <div className="flex items-center justify-center mb-6">
-            <div className="p-4 bg-gradient-to-r from-emerald-500 to-green-400 rounded-2xl shadow-lg">
-              <Rocket className="h-8 w-8 text-white" />
-            </div>
+            <img 
+              src="/fk_final_logo_key.png" 
+              alt="Future Key Logo" 
+              className="h-16 w-auto"
+            />
           </div>
 
           {/* Heading */}
@@ -72,7 +74,7 @@ const CTABanner = () => {
           {/* Trust Indicators */}
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-8 text-gray-400">
             <div className="text-center">
-              <div className="text-2xl font-bold text-emerald-400">30-Day</div>
+              <div className="text-2xl font-bold text-emerald-400">7-Day</div>
               <div className="text-sm">Money Back Guarantee</div>
             </div>
             <div className="hidden sm:block w-px h-12 bg-gray-700"></div>
@@ -82,7 +84,7 @@ const CTABanner = () => {
             </div>
             <div className="hidden sm:block w-px h-12 bg-gray-700"></div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-emerald-400">10k+</div>
+              <div className="text-2xl font-bold text-emerald-400">55+</div>
               <div className="text-sm">Happy Students</div>
             </div>
           </div>

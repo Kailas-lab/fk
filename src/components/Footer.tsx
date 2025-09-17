@@ -10,9 +10,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-              <div className="p-2 bg-gradient-to-r from-emerald-500 to-green-400 rounded-lg">
-                <Key className="h-6 w-6 text-white" />
-              </div>
+              <img 
+                src="/fk_final_logo_key.png" 
+                alt="Future Key Logo" 
+                className="h-8 w-auto"
+              />
               <span className="text-xl font-bold text-white">Future Key</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -25,9 +27,7 @@ const Footer = () => {
               <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors duration-300">
                 <Instagram className="h-5 w-5 text-gray-300 hover:text-white" />
               </a>
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors duration-300">
-                <Youtube className="h-5 w-5 text-gray-300 hover:text-white" />
-              </a>
+              
             </div>
           </div>
 
@@ -35,7 +35,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {['Home', 'Courses', 'Career', 'Services', 'About', 'Contact'].map((link) => (
+              {['Home', 'Courses', 'Career', 'Services', 'Franchise', 'About', 'Contact'].map((link) => (
                 <li key={link}>
                   <Link
                     to={link === 'Home' ? '/' : `/${link.toLowerCase()}`}
@@ -71,15 +71,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-emerald-400 mt-0.5" />
-                <span className="text-gray-400 text-sm">123 Learning Street, Education City, EC 12345</span>
+                <span className="text-gray-400 text-sm">Remote</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-emerald-400" />
-                <span className="text-gray-400 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-400 text-sm">+91 8680870950</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-emerald-400" />
-                <span className="text-gray-400 text-sm">info@futurekey.com</span>
+                <span className="text-gray-400 text-sm">Kailas.manickam8@gmail.com</span>
               </div>
             </div>
 
