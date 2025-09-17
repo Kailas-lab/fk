@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { 
-  ArrowRight, 
-  Users, 
-  BookOpen, 
-  TrendingUp, 
+import {
+  ArrowRight,
+  Users,
+  BookOpen,
+  TrendingUp,
   Award,
   CheckCircle,
   Lightbulb,
@@ -59,24 +59,24 @@ const Franchise = () => {
       });
 
       setIsSubmitted(true);
-      setFormData({ 
-        name: '', 
-        email: '', 
-        phone: '', 
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
         location: '',
         subject: 'Franchise Partnership Inquiry',
-        message: 'I am interested in starting an education franchise with Future Key. Please provide more details about the partnership opportunity.' 
+        message: 'I am interested in starting an education franchise with Future Key. Please provide more details about the partnership opportunity.'
       });
     } catch (error) {
       console.error('Error submitting form:', error);
       setIsSubmitted(true);
-      setFormData({ 
-        name: '', 
-        email: '', 
-        phone: '', 
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
         location: '',
         subject: 'Franchise Partnership Inquiry',
-        message: 'I am interested in starting an education franchise with Future Key. Please provide more details about the partnership opportunity.' 
+        message: 'I am interested in starting an education franchise with Future Key. Please provide more details about the partnership opportunity.'
       });
     }
   };
@@ -195,14 +195,14 @@ const Franchise = () => {
             {/* Content */}
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-purple-900/50 rounded-full text-purple-400 text-sm font-medium mb-6 backdrop-blur-sm border border-purple-800">
-                <img 
-                  src="/fk_final_logo_key.png" 
-                  alt="Future Key" 
+                <img
+                  src="/fk_final_logo_key.png"
+                  alt="Future Key"
                   className="h-4 w-auto mr-2"
                 />
                 Franchise Partnership Opportunity
               </div>
-              
+
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
                 <span className="text-white">Start Your Own</span>
                 <br />
@@ -212,7 +212,7 @@ const Franchise = () => {
                 <br />
                 <span className="text-white">with Us</span>
               </h1>
-              
+
               <p className="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed">
                 Join the Future Key family and build a successful education business with our proven model, comprehensive support, and industry-leading curriculum.
               </p>
@@ -225,21 +225,24 @@ const Franchise = () => {
                   Become a Partner
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </a>
-                
-                <button className="group px-8 py-4 border-2 border-purple-500 text-purple-400 rounded-full font-semibold text-lg hover:bg-purple-500 hover:text-white transition-all duration-300 flex items-center justify-center">
+
+                <a
+                  href="tel:+918680870950"
+                  className="group px-8 py-4 border-2 border-purple-500 text-purple-400 rounded-full font-semibold text-lg hover:bg-purple-500 hover:text-white transition-all duration-300 flex items-center justify-center"
+                >
                   <Phone className="mr-2 h-5 w-5" />
                   Call Us Now
-                </button>
+                </a>
               </div>
 
               {/* Stats */}
               <div className="flex flex-col sm:flex-row gap-8 justify-center lg:justify-start">
                 <div className="text-center lg:text-left">
-                  <div className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">25+</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">2+</div>
                   <div className="text-gray-400">Active Franchises</div>
                 </div>
                 <div className="text-center lg:text-left">
-                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">5000+</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">150+</div>
                   <div className="text-gray-400">Students Impacted</div>
                 </div>
                 <div className="text-center lg:text-left">
@@ -258,7 +261,7 @@ const Franchise = () => {
                   alt="Education franchise partnership"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />
-                
+
                 {/* Floating Elements */}
                 <div className="absolute -top-4 -left-4 bg-gradient-to-r from-blue-500 to-purple-500 p-3 rounded-2xl shadow-lg animate-bounce">
                   <Handshake className="h-6 w-6 text-white" />
@@ -305,7 +308,7 @@ const Franchise = () => {
                   <p className="text-gray-300">Our franchise model has been tested and refined to ensure maximum success for our partners.</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl">
                   <Lightbulb className="h-6 w-6 text-white" />
@@ -315,7 +318,7 @@ const Franchise = () => {
                   <p className="text-gray-300">Stay ahead with our cutting-edge curriculum and modern teaching methodologies.</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="p-3 bg-gradient-to-r from-pink-500 to-rose-500 rounded-xl">
                   <Award className="h-6 w-6 text-white" />
@@ -384,7 +387,7 @@ const Franchise = () => {
           <div className="hidden lg:block">
             <div className="relative">
               <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 transform -translate-y-1/2 z-0"></div>
-              
+
               <div className="grid grid-cols-5 gap-4 relative z-10">
                 {steps.map((step, index) => {
                   const Icon = step.icon;
@@ -398,7 +401,7 @@ const Franchise = () => {
                           {step.step}
                         </div>
                       </div>
-                      
+
                       <h3 className="text-lg font-bold text-white mb-2">{step.title}</h3>
                       <p className="text-gray-300 text-sm">{step.description}</p>
                     </div>
@@ -427,7 +430,7 @@ const Franchise = () => {
                       <div className="w-0.5 h-12 bg-gradient-to-b from-purple-500 to-pink-500 mx-auto mt-4"></div>
                     )}
                   </div>
-                  
+
                   <div className="flex-1 pt-2">
                     <h3 className="text-xl font-bold text-white mb-2">{step.title}</h3>
                     <p className="text-gray-300">{step.description}</p>
@@ -463,11 +466,11 @@ const Franchise = () => {
                     <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                   ))}
                 </div>
-                
+
                 <blockquote className="text-gray-300 mb-6 italic leading-relaxed">
                   "{testimonial.quote}"
                 </blockquote>
-                
+
                 <div className="flex items-center">
                   <img
                     src={testimonial.image}
@@ -505,7 +508,7 @@ const Franchise = () => {
               {/* Benefits Recap */}
               <div className="bg-gray-800 rounded-2xl p-8 border border-gray-700">
                 <h3 className="text-2xl font-bold text-white mb-6">What You Get</h3>
-                
+
                 <div className="space-y-4">
                   {[
                     'Complete business setup guidance',
@@ -525,7 +528,7 @@ const Franchise = () => {
                 <div className="mt-8 p-6 bg-gradient-to-r from-blue-900/50 via-purple-900/50 to-pink-900/50 rounded-xl border border-purple-700">
                   <div className="text-center">
                     <div className="text-sm text-purple-400 font-medium mb-2">Investment Range</div>
-                    <div className="text-2xl font-bold text-white mb-2">₹2-5 Lakhs</div>
+                    <div className="text-2xl font-bold text-white mb-2">Just In Thousands</div>
                     <div className="text-sm text-gray-300">Flexible payment options available</div>
                   </div>
                 </div>
@@ -684,7 +687,7 @@ const Franchise = () => {
             <p className="text-xl text-gray-300 mb-8">
               Join the Future Key family and build a business that makes a real difference in your community.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
                 href="#franchise-form"
@@ -693,7 +696,7 @@ const Franchise = () => {
                 Apply Now
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
-              
+
               <div className="text-sm text-gray-400">
                 📞 Call us: +91 8680870950 | 📧 Email: Kailas.manickam8@gmail.com
               </div>

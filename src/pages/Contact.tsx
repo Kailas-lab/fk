@@ -151,12 +151,7 @@ const Contact = () => {
                   >
                     <Instagram className="h-6 w-6 text-gray-300 hover:text-white" />
                   </a>
-                  <a
-                    href="#"
-                    className="p-3 bg-gray-700 rounded-xl hover:bg-emerald-600 transition-colors duration-300"
-                  >
-                    <Youtube className="h-6 w-6 text-gray-300 hover:text-white" />
-                  </a>
+                  
                 </div>
               </div>
 
@@ -165,17 +160,14 @@ const Contact = () => {
                 <h3 className="text-white font-semibold mb-4">Office Hours</h3>
                 <div className="space-y-2 text-gray-300 text-sm">
                   <div className="flex justify-between">
-                    <span>Monday - Friday</span>
-                    <span>9:00 AM - 6:00 PM</span>
+                    <span>Saturday - Sunday</span>
+                    <span>24 Hours</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Saturday</span>
-                    <span>10:00 AM - 4:00 PM</span>
+                    <span>Weekdays</span>
+                    <span>4:00 AM - 8:00 AM</span>
                   </div>
-                  <div className="flex justify-between">
-                    <span>Sunday</span>
-                    <span>Closed</span>
-                  </div>
+                  
                 </div>
               </div>
             </div>

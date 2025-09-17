@@ -1,32 +1,39 @@
 import React from 'react';
-import { Target, Eye, Users, Award, BookOpen, Lightbulb } from 'lucide-react';
+import { Target, Eye, Users, Award, BookOpen, Lightbulb, Sparkles, Briefcase, Linkedin, Mail } from 'lucide-react';
 
 const About = () => {
   const team = [
     {
-      name: 'Dr. Sarah Johnson',
-      role: 'Founder & Lead Python Instructor',
+      name: 'Kailas Manickam',
+      role: 'Founder & Lead Instructor',
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: '10+ years in software development and education. Former Google engineer with a passion for teaching.',
+      bio: '2+ years in software development and education with a passion for teaching.',
       specialties: ['Python', 'Data Structures', 'Algorithms']
     },
     {
-      name: 'Prof. Michael Chen',
+      name: 'Kayalvizhi N',
+      role: 'Managing Director',
+      image: 'https://images.pexels.com/photos/1761612/pexels-photo-1761612.jpeg?auto=compress&cs=tinysrgb&w=400',
+      bio: 'Visionary leader with 3+ years of experience in strategic planning and business development. Passionate about innovation and growth.',
+      specialties: ['Business Strategy', 'Financial Planning', 'Operations']
+    },
+    {
+      name: 'Prof. Karthick',
       role: 'Data Science Director',
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'PhD in Statistics, 8+ years in data science. Published researcher and industry consultant.',
+      bio: 'B.Tech in Engineering, 3+ years in data science. Published researcher and industry consultant.',
       specialties: ['Machine Learning', 'Statistics', 'Data Analysis']
     },
     {
-      name: 'Emily Rodriguez',
+      name: 'Abhishek C',
       role: 'Digital Marketing Expert',
       image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Marketing strategist with 7+ years experience. Helped 100+ businesses grow their online presence.',
+      bio: 'Marketing strategist with 4+ years experience. Helped 100+ businesses grow their online presence.',
       specialties: ['SEO', 'Social Media', 'Content Strategy']
     },
     {
-      name: 'David Thompson',
-      role: 'Full Stack Developer',
+      name: 'Prasanth',
+      role: 'UI/UX Developer',
       image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400',
       bio: 'Senior developer with expertise in modern web technologies. Built applications for Fortune 500 companies.',
       specialties: ['React', 'Node.js', 'Cloud Architecture']
@@ -81,7 +88,7 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-gray-300 leading-relaxed">
                 <p>
-                  Founded in 2020, Future Key emerged from a simple yet powerful vision: to create a virtual space where anyone can unlock their dream career opportunities. Our founders, experienced professionals from tech giants and prestigious universities, recognized the gap between traditional education and industry needs.
+                  Founded in 2025, Future Key emerged from a simple yet powerful vision: to create a virtual space where anyone can unlock their dream career opportunities. Our founders, experienced professionals from tech giants and prestigious universities, recognized the gap between traditional education and industry needs.
                 </p>
                 <p>
                   We named our platform "Future Key" because we believe education is the master key that unlocks doors to unlimited career possibilities. In our virtual learning space, every course is designed to be a key that opens new opportunities and transforms professional futures.
@@ -172,7 +179,8 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Corrected grid for 5 team members on one line */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
             {team.map((member, index) => (
               <div
                 key={index}
@@ -217,9 +225,9 @@ const About = () => {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { number: '10,000+', label: 'Students Graduated' },
-              { number: '50+', label: 'Expert Instructors' },
-              { number: '100+', label: 'Courses Available' },
+              { number: '150+', label: 'Students Graduated' },
+              { number: '6+', label: 'Expert Instructors' },
+              { number: '10+', label: 'Courses Available' },
               { number: '98%', label: 'Job Placement Rate' }
             ].map((stat, index) => (
               <div key={index} className="text-center">
