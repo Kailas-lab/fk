@@ -186,7 +186,7 @@ const Courses = () => {
       duration: '4 Saturdays',
       students: '40+',
       lessons: '26',
-      image: 'https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://images.pexels.com/photos/4508751/pexels-photo-4508751.jpeg',
       icon: Database,
       level: 'Beginner',
       category: 'Database',
@@ -203,7 +203,7 @@ const Courses = () => {
       duration: '4 Saturdays',
       students: '50+',
       lessons: '28',
-      image: 'https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg',
       icon: TrendingUp, // Using TrendingUp for business/analytics
       level: 'Intermediate',
       category: 'Data Science',

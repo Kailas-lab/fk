@@ -117,8 +117,32 @@ const Services = () => {
     { name: 'Django', icon: Code }
   ];
 
+  // Updated clientLogos array with correct URLs and no grayscale filter
   const clientLogos = [
-    'TCS', 'Infosys', 'Wipro', 'Accenture', 'IBM', 'Microsoft', 'Google', 'EY', 'Bijus','Flipkart','Amazon','Alstom'
+    { name: 'TCS', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Tata_Consultancy_Services_old_logo.svg/1200px-Tata_Consultancy_Services_old_logo.svg.png' },
+    { name: 'Infosys', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/2560px-Infosys_logo.svg.png' },
+    { name: 'Wipro', src: 'https://1000logos.net/wp-content/uploads/2021/05/Wipro-logo.png' },
+    { name: 'Accenture', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Accenture.svg/2560px-Accenture.svg.png' },
+    { name: 'IBM', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/2560px-IBM_logo.svg.png' },
+    { name: 'Microsoft', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png' },
+    { name: 'Google', src: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg' },
+    { name: 'Intel', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/512px-Intel_logo_2023.svg.png' },
+    { name: 'Zoho', src: 'https://www.zoho.com/images/zoho-logo.svg' },
+    { name: 'Flipkart', src: 'https://upload.wikimedia.org/wikipedia/commons/6/69/Flipkart_Logo_as_of_2025.png?20250531062438' },
+    { name: 'Amazon', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png' },
+    { name: 'Alstom', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Alstom_logo.svg/640px-Alstom_logo.svg.png' },
+    { name: 'Capgemini', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Capgemini_201x_logo.svg/640px-Capgemini_201x_logo.svg.png' },
+    { name: 'SLB', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/SLB_Logo_2022.svg/640px-SLB_Logo_2022.svg.png' },
+    { name: 'Cognizant', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Cognizant_logo_2022.svg/640px-Cognizant_logo_2022.svg.png' },
+    { name: 'Mindtree', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/L%26T.png/640px-L%26T.png' },
+    { name: 'HP', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/640px-HP_logo_2012.svg.png' },
+    { name: 'Deloitte', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Logo_of_Deloitte.svg/640px-Logo_of_Deloitte.svg.png' },
+    { name: 'JP Morgan', src: 'https://upload.wikimedia.org/wikipedia/en/6/6c/Jp_morgan_logo.jpg?20140309070205' },
+    { name: 'Caterpillar', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Caterpillar-shortened.svg/150px-Caterpillar-shortened.svg.png' },
+    { name: 'Tech Mahindra', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Tech_Mahindra_New_Logo.svg/640px-Tech_Mahindra_New_Logo.svg.png' },
+    { name: 'Tesla', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/2560px-Tesla_Motors.svg.png' },
+    { name: 'Bosch', src: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Bosch-logo.svg' },
+    { name: 'Dell', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Dell_logo_2016.svg/1024px-Dell_logo_2016.svg.png' }
   ];
 
   return (
@@ -189,10 +213,14 @@ const Services = () => {
                     </ul>
                   </div>
 
-                  <button className="w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-green-400 text-white rounded-xl font-medium hover:from-emerald-600 hover:to-green-500 transition-all duration-300 hover:scale-105 flex items-center justify-center">
-                    Learn More
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </button>
+
+
+                  <Link
+                    to="/contact"
+                    className="px-8 py-4 border-2 border-emerald-500 text-emerald-400 rounded-full font-semibold text-lg hover:bg-emerald-500 hover:text-white transition-all duration-300 hover:scale-105"
+                  >
+                    Get Free Consultation
+                  </Link>
                 </div>
               </div>
             );
@@ -230,11 +258,11 @@ const Services = () => {
           </div>
         </div>
 
-        {/* Client Testimonials */}
+        {/* Client Testimonials with Logos */}
         <div className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-              Our Alumini's are work at Fortune 500
+              Our Alumni's Are Work In Fortune 500 Companies
             </h2>
           </div>
 
@@ -242,9 +270,13 @@ const Services = () => {
             {clientLogos.map((client, index) => (
               <div
                 key={index}
-                className="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-emerald-500/50 transition-all duration-300 flex items-center justify-center"
+                className="bg-white p-6 rounded-xl border border-blue-1000 hover:border-emerald-500/50 transition-all duration-300 flex items-center justify-center"
               >
-                <span className="text-gray-300 font-semibold text-lg">{client}</span>
+                <img
+                  src={client.src}
+                  alt={`${client.name} Logo`}
+                  className="max-h-12 w-auto object-contain"
+                />
               </div>
             ))}
           </div>
@@ -258,7 +290,7 @@ const Services = () => {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Let Future Key be the key to unlock your organization's potential. Contact us to discuss your specific requirements.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"

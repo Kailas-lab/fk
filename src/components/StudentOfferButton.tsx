@@ -1,8 +1,33 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { GraduationCap, X, Sparkles, ArrowRight } from 'lucide-react';
 
 const StudentOfferButton = () => {
   const [showPopup, setShowPopup] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
+  const popupRef = useRef(null);
+
+  const handleClose = () => {
+    setIsClosing(true);
+    setTimeout(() => {
+      setShowPopup(false);
+      setIsClosing(false);
+    }, 500); // match closing animation duration
+  };
+
+  // Close on outside click
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (popupRef.current && !popupRef.current.contains(e.target)) {
+        handleClose();
+      }
+    };
+    if (showPopup) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showPopup]);
 
   return (
     <>
@@ -32,14 +57,19 @@ const StudentOfferButton = () => {
       {/* Popup Modal */}
       {showPopup && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
-          <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 max-w-md w-full border border-emerald-500/30 shadow-2xl transform animate-bounce-in">
-            {/* Close Button */}
+          <div
+            ref={popupRef}
+            className={`relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 max-w-md w-full border border-emerald-500/30 shadow-2xl transform ${
+              isClosing ? 'animate-bounce-out' : 'animate-bounce-in'
+            }`}
+          >
+            {/* Close Button
             <button
-              onClick={() => setShowPopup(false)}
+              onClick={handleClose}
               className="absolute top-4 right-4 p-2 text-gray-400 hover:text-white transition-colors duration-300 hover:bg-gray-700 rounded-full"
             >
               <X className="h-5 w-5" />
-            </button>
+            </button> */}
 
             {/* Animated Background Elements */}
             <div className="absolute inset-0 overflow-hidden rounded-3xl">
@@ -100,7 +130,7 @@ const StudentOfferButton = () => {
               <div className="space-y-3">
                 <a
                   href="/courses"
-                  onClick={() => setShowPopup(false)}
+                  onClick={handleClose}
                   className="w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-green-400 text-white rounded-xl font-semibold hover:from-emerald-600 hover:to-green-500 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-emerald-500/25 flex items-center justify-center"
                 >
                   Claim Student Offer
@@ -108,7 +138,7 @@ const StudentOfferButton = () => {
                 </a>
                 
                 <button
-                  onClick={() => setShowPopup(false)}
+                  onClick={handleClose}
                   className="w-full px-6 py-2 text-gray-400 hover:text-white transition-colors duration-300 text-sm"
                 >
                   Maybe Later
@@ -138,6 +168,11 @@ const StudentOfferButton = () => {
           70% { transform: scale(0.9) rotate(1deg); }
           100% { transform: scale(1) rotate(0deg); opacity: 1; }
         }
+        @keyframes bounce-out {
+          0% { transform: scale(1) rotate(0deg); opacity: 1; }
+          50% { transform: scale(0.9) rotate(3deg); }
+          100% { transform: scale(0.3) rotate(-12deg); opacity: 0; }
+        }
         @keyframes float {
           0%, 100% { transform: translateY(0px); }
           50% { transform: translateY(-10px); }
@@ -147,7 +182,10 @@ const StudentOfferButton = () => {
           50% { transform: translateY(-8px); }
         }
         .animate-bounce-in {
-          animation: bounce-in 0.6s ease-out;
+          animation: bounce-in 0.6s ease-out forwards;
+        }
+        .animate-bounce-out {
+          animation: bounce-out 0.5s ease-in forwards;
         }
         .animate-float {
           animation: float 3s ease-in-out infinite;

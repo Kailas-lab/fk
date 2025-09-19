@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { X, GraduationCap, Sparkles, ArrowRight } from 'lucide-react';
 
 const StudentPopup = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+  const popupRef = useRef(null);
+  const ANIMATION_DURATION = 500; // match with CSS transition duration
 
   useEffect(() => {
     // Show popup after 3 seconds
@@ -17,25 +19,50 @@ const StudentPopup = () => {
 
   const handleClose = () => {
     setIsAnimating(false);
-    setTimeout(() => setIsVisible(false), 300);
+    setTimeout(() => setIsVisible(false), ANIMATION_DURATION);
   };
+
+  // Close on ESC key
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        handleClose();
+      }
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  // Close on click outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (popupRef.current && !popupRef.current.contains(e.target)) {
+        handleClose();
+      }
+    };
+    if (isVisible) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [isVisible]);
 
   if (!isVisible) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
-      <div 
+      <div
+        ref={popupRef}
         className={`relative bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 max-w-md w-full border border-emerald-500/30 shadow-2xl transform transition-all duration-500 ${
           isAnimating ? 'scale-100 opacity-100 rotate-0' : 'scale-75 opacity-0 rotate-12'
         }`}
       >
-        {/* Close Button */}
+        {/* Close Button
         <button
           onClick={handleClose}
           className="absolute top-4 right-4 p-2 text-gray-400 hover:text-white transition-colors duration-300 hover:bg-gray-700 rounded-full"
         >
           <X className="h-5 w-5" />
-        </button>
+        </button> */}
 
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden rounded-3xl">

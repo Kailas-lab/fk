@@ -91,7 +91,7 @@ const MachineLearningCourse = () => {
       day: 1,
       title: 'ML Foundations & Algorithms',
       icon: Brain,
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/18069696/pexels-photo-18069696.png',
       topics: [
         'Advanced ML algorithms and theory',
         'Supervised learning: SVM, Random Forest',
@@ -104,7 +104,7 @@ const MachineLearningCourse = () => {
       day: 2,
       title: 'Deep Learning & Neural Networks',
       icon: Cpu,
-      image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/5473955/pexels-photo-5473955.jpeg',
       topics: [
         'Introduction to Deep Learning',
         'Neural networks and backpropagation',
@@ -117,7 +117,7 @@ const MachineLearningCourse = () => {
       day: 3,
       title: 'Computer Vision & OpenCV',
       icon: Eye,
-      image: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/8386363/pexels-photo-8386363.jpeg',
       topics: [
         'Computer vision fundamentals',
         'OpenCV library and image processing',
@@ -130,7 +130,7 @@ const MachineLearningCourse = () => {
       day: 4,
       title: 'Model Optimization & Deployment',
       icon: FileText,
-      image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/4389986/pexels-photo-4389986.jpeg',
       topics: [
         'Model optimization techniques',
         'Scikit-learn advanced features',
@@ -167,7 +167,7 @@ const MachineLearningCourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-pink-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-pink-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-pink-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -242,7 +242,7 @@ const MachineLearningCourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-red-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/2239655/pexels-photo-2239655.jpeg"
                   alt="Machine Learning and AI development"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

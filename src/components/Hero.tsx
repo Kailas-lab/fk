@@ -41,7 +41,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl lg:text-2xl text-gray-300 mb-8 leading-relaxed max-w-2xl">
-              Future Key is your virtual space where dreams meet opportunity. We provide the key to unlock doors to your professional future through expert-led courses and hands-on learning.
+              <b>Future Key</b>  is your virtual space where dreams meet opportunity. We provide the key to unlock doors to your professional future through expert-led courses and hands-on learning.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

@@ -166,7 +166,7 @@ const DigitalMarketingCourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-orange-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-orange-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-orange-500 rounded-full filter blur-3xl animate-pulse"></div>

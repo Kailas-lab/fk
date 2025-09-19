@@ -6,38 +6,47 @@ const About = () => {
     {
       name: 'Kailas Manickam',
       role: 'Founder & Lead Instructor',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: '2+ years in software development and education with a passion for teaching.',
-      specialties: ['Python', 'Data Structures', 'Algorithms']
+      image: 'https://www.careerladderedu.com/static/media/kailas.a8adaea98c11204f56c8.png',
+      bio: 'Microsoft certified power bi developer, 2+ years in software development, Data Analytics and education with a passion for teaching.',
+      specialties: ['Power BI', 'MS Excel', 'Python', 'AI/ML']
     },
     {
       name: 'Kayalvizhi N',
       role: 'Managing Director',
-      image: 'https://images.pexels.com/photos/1761612/pexels-photo-1761612.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://media.licdn.com/dms/image/v2/D5635AQFLj22RqYehhg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1727952281186?e=1758891600&v=beta&t=7xVYiH-qwM3cOTwmA-9cLPX3KpCcqlhw1a7KIDBYlcM',
       bio: 'Visionary leader with 3+ years of experience in strategic planning and business development. Passionate about innovation and growth.',
       specialties: ['Business Strategy', 'Financial Planning', 'Operations']
     },
     {
       name: 'Prof. Karthick',
       role: 'Data Science Director',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://www.careerladderedu.com/static/media/karthick.48197b16dccf69f534ae.jpg',
       bio: 'B.Tech in Engineering, 3+ years in data science. Published researcher and industry consultant.',
       specialties: ['Machine Learning', 'Statistics', 'Data Analysis']
     },
     {
       name: 'Abhishek C',
       role: 'Digital Marketing Expert',
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://media.licdn.com/dms/image/v2/D4D03AQHIRSrV8IXzOQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724171060777?e=1761177600&v=beta&t=jb9mp3id5XJSu7zoUGG4pPkOk9rtQCjKahE9wP-3Wi0',
       bio: 'Marketing strategist with 4+ years experience. Helped 100+ businesses grow their online presence.',
       specialties: ['SEO', 'Social Media', 'Content Strategy']
     },
     {
       name: 'Prasanth',
       role: 'UI/UX Developer',
-      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Senior developer with expertise in modern web technologies. Built applications for Fortune 500 companies.',
-      specialties: ['React', 'Node.js', 'Cloud Architecture']
+      image: 'https://www.careerladderedu.com/static/media/prasanth.f57369f9c325c6eb483a.jpg',
+      bio: 'Senior UI/UX developer with expertise in modern web technologies. Built applications for Fortune 500 companies.',
+      specialties: ['Figma', 'Adobe Premire Pro', 'After Effets']
     }
+    ,
+    {
+      "name": "Aarthi",
+      "role": "Tally Prime Instructor",
+      "image": "",
+      "bio": "Experienced instructor specializing in Tally Prime. Helps students master accounting principles and software functionalities for career success.",
+      "specialties": ["Tally Prime", "Accounting", "GST", "Payroll"]
+    }
+
   ];
 
   const values = [
@@ -100,11 +109,11 @@ const About = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://media.licdn.com/dms/image/v2/D5622AQEBGikRYaW3AA/feedshare-shrink_1280/B56ZkqDbncHUAs-/0/1757347171316?e=1761177600&v=beta&t=9UQAYxpCwxkMbGQFsYtVC6OZd5Q98BFJg-_1IK5zTws"
                 alt="Students learning"
                 className="rounded-2xl shadow-2xl"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-green-400/20 rounded-2xl"></div>
+              <div className="absolute inset-0  rounded-2xl"></div>
             </div>
           </div>
         </div>
@@ -180,7 +189,7 @@ const About = () => {
           </div>
 
           {/* Corrected grid for 5 team members on one line */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <div
                 key={index}
@@ -195,7 +204,7 @@ const About = () => {
                   <h3 className="text-xl font-bold text-white mb-2">{member.name}</h3>
                   <p className="text-emerald-400 font-medium mb-3">{member.role}</p>
                   <p className="text-gray-300 text-sm mb-4 leading-relaxed">{member.bio}</p>
-                  
+
                   <div className="space-y-2">
                     <div className="text-sm text-gray-400 font-medium">Specialties:</div>
                     <div className="flex flex-wrap gap-1 justify-center">

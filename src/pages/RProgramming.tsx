@@ -94,7 +94,7 @@ const RProgrammingCourse = () => {
       day: 1,
       title: 'Foundations of R',
       icon: Code,
-      image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/5185093/pexels-photo-5185093.jpeg',
       topics: [
         'Introduction to R and RStudio',
         'Data types and data structures (vectors, matrices, data frames)',
@@ -107,7 +107,7 @@ const RProgrammingCourse = () => {
       day: 2,
       title: 'Data Manipulation with Tidyverse',
       icon: Grid,
-      image: 'https://images.pexels.com/photos/5926392/pexels-photo-5926392.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1019470/abacus-mathematics-addition-subtraction-1019470.jpeg',
       topics: [
         'Introduction to Tidyverse (dplyr, tidyr)',
         'Data filtering, selecting, and arranging',
@@ -120,7 +120,7 @@ const RProgrammingCourse = () => {
       day: 3,
       title: 'Data Visualization with ggplot2',
       icon: BarChart,
-      image: 'https://images.pexels.com/photos/7319293/pexels-photo-7319293.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/7269674/pexels-photo-7269674.jpeg',
       topics: [
         'Fundamentals of ggplot2 (aesthetics, geoms)',
         'Creating basic plots (scatter plots, bar charts)',
@@ -133,7 +133,7 @@ const RProgrammingCourse = () => {
       day: 4,
       title: 'Statistical Analysis & Reporting',
       icon: TrendingUp,
-      image: 'https://images.pexels.com/photos/5668853/pexels-photo-5668853.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/6863514/pexels-photo-6863514.jpeg',
       topics: [
         'Descriptive statistics and hypothesis testing',
         'Introduction to regression analysis',
@@ -170,7 +170,7 @@ const RProgrammingCourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-sky-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-sky-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-sky-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -245,7 +245,7 @@ const RProgrammingCourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-sky-500 to-blue-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/7409413/pexels-photo-7409413.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/3768126/pexels-photo-3768126.jpeg"
                   alt="Person working on data analysis using R Studio on a laptop"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

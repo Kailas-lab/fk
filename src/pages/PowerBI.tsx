@@ -103,7 +103,7 @@ const PowerBICourse = () => {
       day: 1,
       title: 'Power BI Fundamentals & Data Preparation',
       icon: Database,
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/577210/pexels-photo-577210.jpeg',
       topics: [
         'Introduction to Power BI Ecosystem (Desktop, Service, Mobile)',
         'Connecting to various data sources (Excel, SQL, Web)',
@@ -116,7 +116,7 @@ const PowerBICourse = () => {
       day: 2,
       title: 'Data Modeling & DAX',
       icon: Layers,
-      image: 'https://images.pexels.com/photos/5926392/pexels-photo-5926392.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/3183170/pexels-photo-3183170.jpeg',
       topics: [
         'Creating and managing data relationships',
         'Star vs. Snowflake schema concepts',
@@ -129,7 +129,7 @@ const PowerBICourse = () => {
       day: 3,
       title: 'Report & Dashboard Design',
       icon: LayoutDashboard,
-      image: 'https://images.pexels.com/photos/7319293/pexels-photo-7319293.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg',
       topics: [
         'Principles of effective data visualization',
         'Choosing the right chart type',
@@ -142,7 +142,7 @@ const PowerBICourse = () => {
       day: 4,
       title: 'Sharing & Advanced Topics',
       icon: Cloud,
-      image: 'https://images.pexels.com/photos/5668853/pexels-photo-5668853.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg',
       topics: [
         'Publishing reports to Power BI Service',
         'Creating dashboards and setting up alerts',
@@ -179,7 +179,7 @@ const PowerBICourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-green-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-green-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-green-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -254,7 +254,7 @@ const PowerBICourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/7409413/pexels-photo-7409413.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg"
                   alt="A data analyst working on a Power BI dashboard"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

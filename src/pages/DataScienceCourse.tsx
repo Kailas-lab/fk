@@ -91,7 +91,7 @@ const DataScienceCourse = () => {
       day: 1,
       title: 'Data Science Fundamentals',
       icon: Database,
-      image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/3913021/pexels-photo-3913021.jpeg',
       topics: [
         'Introduction to Data Science & Python for Data',
         'NumPy for numerical computing',
@@ -104,7 +104,7 @@ const DataScienceCourse = () => {
       day: 2,
       title: 'Data Visualization & Analysis',
       icon: BarChart3,
-      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/3912469/pexels-photo-3912469.jpeg',
       topics: [
         'Matplotlib and Seaborn for visualization',
         'Statistical analysis and hypothesis testing',
@@ -117,7 +117,7 @@ const DataScienceCourse = () => {
       day: 3,
       title: 'Machine Learning Basics',
       icon: Brain,
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/5952738/pexels-photo-5952738.jpeg',
       topics: [
         'Introduction to Machine Learning',
         'Supervised vs Unsupervised learning',
@@ -130,7 +130,7 @@ const DataScienceCourse = () => {
       day: 4,
       title: 'Advanced Analytics & Power BI',
       icon: FileText,
-      image: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg',
       topics: [
         'Power BI for business intelligence',
         'Advanced data modeling',
@@ -167,7 +167,7 @@ const DataScienceCourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-purple-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-purple-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-purple-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -242,7 +242,7 @@ const DataScienceCourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg"
                   alt="Data Science visualization and analytics"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

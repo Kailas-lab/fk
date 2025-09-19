@@ -24,12 +24,11 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <img 
-              src="/fk_final_logo_key.png" 
-              alt="Future Key Logo" 
-              className="h-10 w-auto group-hover:scale-110 transition-transform duration-300"
+            <img
+              src="public\fk_final_logo _cut.png"
+              alt="Future Key Logo"
+              className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
             />
-            <span className="text-xl font-bold text-white">Future Key</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -38,9 +37,8 @@ const Header = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`relative py-2 px-1 text-sm font-medium transition-colors duration-300 hover:text-emerald-400 ${
-                  isActive(link.path) ? 'text-emerald-400' : 'text-gray-300'
-                }`}
+                className={`relative py-2 px-1 text-sm font-medium transition-colors duration-300 hover:text-emerald-400 ${isActive(link.path) ? 'text-emerald-400' : 'text-gray-300'
+                  }`}
               >
                 {link.name}
                 {isActive(link.path) && (
@@ -78,9 +76,8 @@ const Header = () => {
                   key={link.name}
                   to={link.path}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`text-sm font-medium transition-colors duration-300 hover:text-emerald-400 ${
-                    isActive(link.path) ? 'text-emerald-400' : 'text-gray-300'
-                  }`}
+                  className={`text-sm font-medium transition-colors duration-300 hover:text-emerald-400 ${isActive(link.path) ? 'text-emerald-400' : 'text-gray-300'
+                    }`}
                 >
                   {link.name}
                 </Link>

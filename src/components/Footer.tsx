@@ -10,25 +10,36 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-              <img 
-                src="/fk_final_logo_key.png" 
-                alt="Future Key Logo" 
-                className="h-8 w-auto"
+              <img
+                src="public\fk_final_logo _cut.png" 
+                alt="Future Key Logo"
+                className="h-12 w-auto"
               />
-              <span className="text-xl font-bold text-white">Future Key</span>
+              
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
               Your virtual space to unlock dream career opportunities. We provide the key to open doors to your professional future through quality education and hands-on learning.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors duration-300">
+              <a
+                href="https://www.linkedin.com/company/futurekeyedu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors duration-300"
+              >
                 <Linkedin className="h-5 w-5 text-gray-300 hover:text-white" />
               </a>
-              <a href="#" className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors duration-300">
+
+              <a
+                href="https://www.instagram.com/futurekeyedu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-gray-800 rounded-lg hover:bg-emerald-600 transition-colors duration-300"
+              >
                 <Instagram className="h-5 w-5 text-gray-300 hover:text-white" />
               </a>
-              
             </div>
+
           </div>
 
           {/* Quick Links */}
@@ -103,7 +114,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Future Key. All rights reserved.
+              © 2025 Future Key. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors duration-300">

@@ -97,7 +97,7 @@ const MySQLCourse = () => {
       day: 1,
       title: 'Database Fundamentals & SQL Basics',
       icon: Database,
-      image: 'https://images.pexels.com/photos/1039864/pexels-photo-1039864.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/17489160/pexels-photo-17489160.jpeg',
       topics: [
         'Introduction to RDBMS and MySQL',
         'Setting up MySQL Server & Workbench',
@@ -110,7 +110,7 @@ const MySQLCourse = () => {
       day: 2,
       title: 'Advanced Querying & Joins',
       icon: Search,
-      image: 'https://images.pexels.com/photos/5926392/pexels-photo-5926392.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/7376/startup-photos.jpg',
       topics: [
         'Filtering data with WHERE and LIKE',
         'Aggregating data with GROUP BY and HAVING',
@@ -123,7 +123,7 @@ const MySQLCourse = () => {
       day: 3,
       title: 'Database Design & Programming',
       icon: Settings,
-      image: 'https://images.pexels.com/photos/7319293/pexels-photo-7319293.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/10725897/pexels-photo-10725897.jpeg',
       topics: [
         'Principles of database normalization',
         'Creating views and managing transactions',
@@ -136,7 +136,7 @@ const MySQLCourse = () => {
       day: 4,
       title: 'Optimization & Administration',
       icon: TrendingUp,
-      image: 'https://images.pexels.com/photos/5668853/pexels-photo-5668853.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/5380643/pexels-photo-5380643.jpeg',
       topics: [
         'Query optimization with EXPLAIN',
         'Creating and managing indexes',
@@ -171,16 +171,16 @@ const MySQLCourse = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black pt-24 pb-16">
+    <div className="min-h-screen bg-black pt-24 pb-18">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-amber-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-amber-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-amber-500 rounded-full filter blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-20 w-80 h-80 bg-orange-400 rounded-full filter blur-3xl animate-pulse delay-1000"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px- relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Content */}
             <div className="text-center lg:text-left">
@@ -248,7 +248,7 @@ const MySQLCourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-500 to-orange-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/6549358/pexels-photo-6549358.jpeg"
                   alt="A database schema on a computer screen"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

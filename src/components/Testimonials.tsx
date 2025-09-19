@@ -10,7 +10,7 @@ const Testimonials = () => {
       name: 'Shanmuga Vadivu',
       role: 'Full Stack Developer',
       company: 'Tech Solutions Inc.',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/15612102/pexels-photo-15612102.jpeg',
       rating: 5,
       text: 'Future Key completely transformed my career! The Python programming course was incredibly well-structured, and the hands-on projects gave me the confidence to land my dream job as a Full Stack Developer.',
       course: 'Python Programming'
@@ -20,7 +20,7 @@ const Testimonials = () => {
       name: 'Karthikeyan S',
       role: 'Data Scientist',
       company: 'Analytics Pro',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/33955746/pexels-photo-33955746.jpeg',
       rating: 5,
       text: 'The Data Science Mastery course exceeded my expectations. The instructors are true experts, and the practical approach to learning helped me transition from a traditional business role to data science.',
       course: 'Data Science Mastery'
@@ -30,7 +30,7 @@ const Testimonials = () => {
       name: 'Valliyammai M',
       role: 'Digital Marketing Intern',
       company: 'Creative Agency',
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/31868218/pexels-photo-31868218.jpeg',
       rating: 5,
       text: 'Amazing experience! The digital marketing course covered everything from SEO to social media strategies. The real-world case studies and personalized feedback made all the difference in my learning journey.',
       course: 'Digital Marketing'
@@ -40,7 +40,7 @@ const Testimonials = () => {
       name: 'Krounchan Shivan',
       role: 'Machine Learning Engineer',
       company: 'AI Innovations',
-      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/6476365/pexels-photo-6476365.jpeg',
       rating: 5,
       text: 'The Machine Learning course at Future Key is outstanding! The depth of content and practical implementation exercises prepared me perfectly for my current role. Highly recommend to anyone serious about AI.',
       course: 'Machine Learning'

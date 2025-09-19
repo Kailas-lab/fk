@@ -91,7 +91,7 @@ const PythonCourse = () => {
       day: 1,
       title: 'Python Basics',
       icon: BookOpen,
-      image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg',
       topics: [
         'Introduction to Python & environment setup',
         'Syntax, variables, data types',
@@ -104,7 +104,7 @@ const PythonCourse = () => {
       day: 2,
       title: 'Control Flow & Data Structures',
       icon: Code,
-      image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg',
       topics: [
         'If-else, loops (for, while)',
         'Strings, Lists, Tuples, Sets, Dictionaries',
@@ -117,7 +117,7 @@ const PythonCourse = () => {
       day: 3,
       title: 'Functions & File Handling',
       icon: FileText,
-      image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg',
       topics: [
         'Functions, recursion, lambda',
         'File handling: read, write, append',
@@ -130,7 +130,7 @@ const PythonCourse = () => {
       day: 4,
       title: 'OOP & Advanced Concepts',
       icon: Layers,
-      image: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/5473950/pexels-photo-5473950.jpeg',
       topics: [
         'Classes & objects, constructor',
         'Inheritance, polymorphism',
@@ -165,17 +165,17 @@ const PythonCourse = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black pt-24 pb-16">
+    <div className="min-h-screen bg-black pt-24 pb-16 ">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-emerald-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-emerald-950 overflow-hidden ">
         {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0 opacity-10 ">
           <div className="absolute top-20 left-20 w-96 h-96 bg-emerald-500 rounded-full filter blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-20 w-80 h-80 bg-green-400 rounded-full filter blur-3xl animate-pulse delay-1000"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto px-8 relative z-10 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ">
             {/* Content */}
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-emerald-900/50 rounded-full text-emerald-400 text-sm font-medium mb-6 backdrop-blur-sm border border-emerald-800">
@@ -242,7 +242,7 @@ const PythonCourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/10816120/pexels-photo-10816120.jpeg"
                   alt="Teacher teaching Python programming in classroom"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

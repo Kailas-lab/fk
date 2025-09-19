@@ -95,7 +95,7 @@ const TallyPrimeCourse = () => {
       day: 1,
       title: 'Company & Master Creation',
       icon: Building,
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/4021266/pexels-photo-4021266.jpeg',
       topics: [
         'Introduction to TallyPrime & GST',
         'Creating & managing a company',
@@ -108,7 +108,7 @@ const TallyPrimeCourse = () => {
       day: 2,
       title: 'Accounting Vouchers',
       icon: CreditCard,
-      image: 'https://images.pexels.com/photos/3862629/pexels-photo-3862629.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/262470/pexels-photo-262470.jpeg',
       topics: [
         'Payment, Receipt, Contra vouchers',
         'Journal, Sales, Purchase vouchers',
@@ -121,7 +121,7 @@ const TallyPrimeCourse = () => {
       day: 3,
       title: 'Taxation & Reporting',
       icon: DollarSign,
-      image: 'https://images.pexels.com/photos/5668853/pexels-photo-5668853.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/53621/calculator-calculation-insurance-finance-53621.jpeg',
       topics: [
         'GST & TDS configuration',
         'Generating GST returns (GSTR-1, GSTR-3B)',
@@ -134,7 +134,7 @@ const TallyPrimeCourse = () => {
       day: 4,
       title: 'Advanced Features & Reporting',
       icon: BarChart,
-      image: 'https://images.pexels.com/photos/5926392/pexels-photo-5926392.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/4475524/pexels-photo-4475524.jpeg',
       topics: [
         'Cost centers & cost categories',
         'Order processing (sales/purchase)',
@@ -171,7 +171,7 @@ const TallyPrimeCourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-green-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-green-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-green-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -246,7 +246,7 @@ const TallyPrimeCourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/5668846/pexels-photo-5668846.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/7688191/pexels-photo-7688191.jpeg"
                   alt="Accountant working with TallyPrime on a laptop"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

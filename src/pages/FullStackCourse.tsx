@@ -91,7 +91,7 @@ const FullStackCourse = () => {
       day: 1,
       title: 'Frontend Development',
       icon: Code,
-      image: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/221043/pexels-photo-221043.jpeg',
       topics: [
         'HTML5, CSS3, and responsive design',
         'JavaScript fundamentals and ES6+',
@@ -104,7 +104,7 @@ const FullStackCourse = () => {
       day: 2,
       title: 'Backend Development with Django',
       icon: Server,
-      image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/330771/pexels-photo-330771.jpeg',
       topics: [
         'Django framework fundamentals',
         'Models, Views, and Templates (MVT)',
@@ -117,7 +117,7 @@ const FullStackCourse = () => {
       day: 3,
       title: 'Database & API Development',
       icon: Database,
-      image: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/3584996/pexels-photo-3584996.jpeg',
       topics: [
         'Database design and SQL',
         'Django ORM and migrations',
@@ -130,7 +130,7 @@ const FullStackCourse = () => {
       day: 4,
       title: 'Deployment & Production',
       icon: Globe,
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/5632379/pexels-photo-5632379.jpeg',
       topics: [
         'Cloud deployment strategies',
         'Docker containerization',
@@ -167,7 +167,7 @@ const FullStackCourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-blue-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-blue-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -242,7 +242,7 @@ const FullStackCourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg"
                   alt="Full stack web development"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

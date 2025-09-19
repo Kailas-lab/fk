@@ -94,7 +94,7 @@ const GenAICourse = () => {
       day: 1,
       title: 'Gen AI & Gemini Fundamentals',
       icon: Brain,
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/3912979/pexels-photo-3912979.jpeg',
       topics: [
         'Introduction to Generative AI & LLMs',
         'Gemini API setup & authentication',
@@ -107,7 +107,7 @@ const GenAICourse = () => {
       day: 2,
       title: 'Introduction to LangChain',
       icon: Network,
-      image: 'https://images.pexels.com/photos/1039864/pexels-photo-1039864.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg',
       topics: [
         'LangChain components (LLMs, Prompts, Chains)',
         'Integrating Gemini with LangChain',
@@ -120,7 +120,7 @@ const GenAICourse = () => {
       day: 3,
       title: 'Retrieval-Augmented Generation (RAG)',
       icon: Layers,
-      image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/17486101/pexels-photo-17486101.png',
       topics: [
         'Vector stores and embeddings',
         'Building a simple RAG application',
@@ -133,7 +133,7 @@ const GenAICourse = () => {
       day: 4,
       title: 'Advanced Chains & Agents',
       icon: MessageSquare,
-      image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/8386360/pexels-photo-8386360.jpeg',
       topics: [
         'LangChain Agents & Tools',
         'Creating conversational memory',
@@ -170,7 +170,7 @@ const GenAICourse = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-indigo-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-indigo-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-indigo-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -245,7 +245,7 @@ const GenAICourse = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-violet-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/10636838/pexels-photo-10636838.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg"
                   alt="Abstract image representing AI and data"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />

@@ -42,7 +42,7 @@ const Career = () => {
       companies: ['Microsoft', 'Accenture', 'Deloitte', 'TCS', 'Infosys'],
       icon: Target,
       growth: '25% growth expected',
-      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg'
     },
     {
       title: 'Data Scientist',
@@ -52,7 +52,7 @@ const Career = () => {
       companies: ['IBM', 'Accenture', 'TCS', 'Wipro', 'Infosys'],
       icon: TrendingUp,
       growth: '35% growth expected',
-      image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://images.pexels.com/photos/6153344/pexels-photo-6153344.jpeg'
     },
     {
       title: 'Digital Marketing Specialist',
@@ -62,7 +62,7 @@ const Career = () => {
       companies: ['Byju\'s', 'Unacademy', 'Swiggy', 'Paytm', 'OYO'],
       icon: TrendingUp,
       growth: '18% growth expected',
-      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg'
     }
   ];
 
@@ -270,21 +270,21 @@ const Career = () => {
                 role: 'Machine Learning Engineer at AI Innovations',
                 package: '₹6 LPA',
                 course: 'Data Science Mastery',
-                image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400'
+                image: 'https://images.pexels.com/photos/6476365/pexels-photo-6476365.jpeg'
               },
               {
                 name: 'Karthikeyan S',
                 role: 'Data Scientist at Analytics Pro',
                 package: '₹8 LPA',
                 course: 'Machine Learning',
-                image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
+                image: 'https://images.pexels.com/photos/33955746/pexels-photo-33955746.jpeg'
               },
               {
                 name: 'Valliyammai M',
                 role: 'Digital Marketer at Creative Agency',
                 package: '₹5 LPA',
                 course: 'Digital Marketing Mastery',
-                image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400'
+                image: 'https://images.pexels.com/photos/31868218/pexels-photo-31868218.jpeg'
               }
             ].map((story, index) => (
               <div key={index} className="text-center">

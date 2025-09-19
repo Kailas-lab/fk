@@ -159,21 +159,21 @@ const Franchise = () => {
     {
       name: 'Priya Sharma',
       location: 'Mumbai, Maharashtra',
-      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/9159272/pexels-photo-9159272.jpeg',
       quote: 'Starting my Future Key franchise was the best decision I made. The support and guidance helped me build a successful education center that now serves 200+ students.',
       rating: 5
     },
     {
       name: 'Rahul Patel',
       location: 'Bangalore, Karnataka',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/31558479/pexels-photo-31558479.jpeg',
       quote: 'The customized syllabus and marketing support made it easy to attract students. Within 6 months, I had a thriving business with excellent student outcomes.',
       rating: 5
     },
     {
-      name: 'Sneha Gupta',
+      name: 'Tharan Singh',
       location: 'Delhi, NCR',
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/9663015/pexels-photo-9663015.jpeg',
       quote: 'Future Key provided everything I needed to succeed - from training to ongoing support. My franchise is now expanding to a second location!',
       rating: 5
     }
@@ -182,7 +182,7 @@ const Franchise = () => {
   return (
     <div className="min-h-screen bg-black pt-24 pb-16">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-black via-gray-900 to-purple-950 overflow-hidden">
+      <section className="relative py-40 bg-gradient-to-br from-black via-gray-900 to-purple-950 overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl animate-pulse"></div>
@@ -257,7 +257,7 @@ const Franchise = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
                 <img
-                  src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://www.indiafilings.com/learn/wp-content/uploads/2018/12/Rights-and-Duties-of-Partners-in-a-Partnership-Firm.jpg"
                   alt="Education franchise partnership"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />
