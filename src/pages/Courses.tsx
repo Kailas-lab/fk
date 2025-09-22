@@ -21,7 +21,7 @@ const Courses = () => {
       level: 'Beginner',
       category: 'Programming',
       rating: 4.8,
-      instructor: 'Kailas Manickam',
+      instructor: 'Karthick',
       skills: ['Python Basics', 'Data Structures', 'Functions & Modules', 'OOP Concepts', 'File Operations', 'Error Handling']
     },
     {
@@ -38,7 +38,7 @@ const Courses = () => {
       level: 'Intermediate',
       category: 'Data Science',
       rating: 4.9,
-      instructor: 'Kailas Manickam',
+      instructor: 'Karthick',
       skills: ['Pandas & NumPy', 'Data Visualization', 'Statistical Analysis', 'Power BI', 'Machine Learning Basics', 'Data Cleaning']
     },
     {
@@ -89,7 +89,7 @@ const Courses = () => {
       level: 'Beginner',
       category: 'Marketing',
       rating: 4.6,
-      instructor: 'Kailas Manickam',
+      instructor: 'Prasanth',
       skills: ['SEO Optimization', 'Social Media Marketing', 'Content Strategy', 'Google Ads', 'Analytics & Tracking', 'Email Marketing']
     },
     {
@@ -123,7 +123,7 @@ const Courses = () => {
       level: 'Beginner',
       category: 'Finance',
       rating: 4.7,
-      instructor: 'Kailas Manickam',
+      instructor: 'Aarthi',
       skills: ['Tally Basics', 'GST Filing', 'Payroll Management', 'Inventory Handling', 'Financial Reporting']
     },
     {
@@ -174,7 +174,7 @@ const Courses = () => {
       level: 'Intermediate',
       category: 'Programming',
       rating: 4.8,
-      instructor: 'Kailas Manickam',
+      instructor: 'Karthick',
       skills: ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'Data Analysis']
     },
     {
@@ -191,7 +191,7 @@ const Courses = () => {
       level: 'Beginner',
       category: 'Database',
       rating: 4.7,
-      instructor: 'Kailas Manickam',
+      instructor: 'Karthick',
       skills: ['SQL Queries', 'Joins & Subqueries', 'Indexes', 'Stored Procedures', 'Database Design']
     },
     {
