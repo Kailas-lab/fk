@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Key } from 'lucide-react';
 
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -25,7 +26,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <img
-              src="public\fk.webp"
+              src="/fk.webp" 
               alt="Future Key Logo"
               className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
             />
