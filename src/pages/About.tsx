@@ -6,14 +6,14 @@ const About = () => {
     {
       name: 'Kailas Manickam',
       role: 'Founder & Lead Instructor',
-      image: 'https://www.careerladderedu.com/static/media/kailas.a8adaea98c11204f56c8.png',
+      image: '/k.jpeg',
       bio: 'Microsoft certified power bi developer, 2+ years in software development, Data Analytics and education with a passion for teaching.',
       specialties: ['Power BI', 'MS Excel', 'Python', 'AI/ML']
     },
     {
       name: 'Kayalvizhi N',
       role: 'Managing Director',
-      image: 'https://media.licdn.com/dms/image/v2/D5635AQFLj22RqYehhg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1727952281186?e=1758891600&v=beta&t=7xVYiH-qwM3cOTwmA-9cLPX3KpCcqlhw1a7KIDBYlcM',
+      image: '/kk.jpeg',
       bio: 'Visionary leader with 3+ years of experience in strategic planning and business development. Passionate about innovation and growth.',
       specialties: ['Business Strategy', 'Financial Planning', 'Operations']
     },
@@ -34,7 +34,7 @@ const About = () => {
     {
       name: 'Prasanth',
       role: 'UI/UX Developer',
-      image: 'https://www.careerladderedu.com/static/media/prasanth.f57369f9c325c6eb483a.jpg',
+      image: 'https://media.licdn.com/dms/image/v2/D5603AQEfJ3JoNrNFAA/profile-displayphoto-shrink_400_400/B56Zd.PTOKHUAo-/0/1750169630020?e=1761177600&v=beta&t=gLBU_xUqFJqqZdn5orf1v-Z07zD4p5uWLTpcGOlwZ18',
       bio: 'Senior UI/UX developer with expertise in modern web technologies. Built applications for Fortune 500 companies.',
       specialties: ['Figma', 'Adobe Premire Pro', 'After Effets']
     }
@@ -42,7 +42,7 @@ const About = () => {
     {
       "name": "Aarthi",
       "role": "Tally Prime Instructor",
-      "image": "",
+      "image": "/a.jpeg",
       "bio": "Experienced instructor specializing in Tally Prime. Helps students master accounting principles and software functionalities for career success.",
       "specialties": ["Tally Prime", "Accounting", "GST", "Payroll"]
     }
