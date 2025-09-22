@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
               <img
-                src="public\fk_final_logo _cut.png" 
+                src="/fk.webp" 
                 alt="Future Key Logo"
                 className="h-12 w-auto"
               />
