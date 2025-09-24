@@ -18,6 +18,8 @@ import {
   TrendingUp
 } from 'lucide-react';
 
+import logo from "../../public/logo.webp"
+
 const DataScienceCourse = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -180,7 +182,7 @@ const DataScienceCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-purple-900/50 rounded-full text-purple-400 text-sm font-medium mb-6 backdrop-blur-sm border border-purple-800">
                 <img 
-                  src="/logo.webp" 
+                  src={logo} 
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
