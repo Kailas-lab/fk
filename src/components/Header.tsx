@@ -25,13 +25,13 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <img
-              src="public\name.webp"
+              src="public\name.png"
               alt="Future Key Logo"
               className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
             />
           </Link>
 
-          
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-2">
@@ -52,22 +52,22 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link to="/" className="flex items-center space-x-2 group">
-              <img
-                src="public/logo.webp"
-                alt="Future Key Logo"
-                className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
-              />
-            </Link>
-            <Link
-              to="/courses"
-              className="px-6 py-2 bg-gradient-to-r from-emerald-500 to-green-400 text-white rounded-full font-medium hover:from-emerald-600 hover:to-green-500 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-emerald-500/25"
-            >
-              Get Started
-            </Link>
-          </div>
+            <Link to="/" className="flex items-center space-x-2 group">
+              <img
+                src="public/logo.webp"
+                alt="Future Key Logo"
+                className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
+              />
+            </Link>
+            <Link
+              to="/courses"
+              className="px-6 py-2 bg-gradient-to-r from-emerald-500 to-green-400 text-white rounded-full font-medium hover:from-emerald-600 hover:to-green-500 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-emerald-500/25"
+            >
+              Get Started
+            </Link>
+          </div>
 
-          
+
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
