@@ -26,7 +26,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <img
-              src="public\name.webp"
+              src="public\name.png"
               alt="Future Key Logo"
               className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
             />
