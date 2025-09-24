@@ -28,7 +28,7 @@ const DataScienceCourse = () => {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     handleFormSubmission();
   };
@@ -47,7 +47,7 @@ const DataScienceCourse = () => {
     };
 
     try {
-      const response = await fetch(scriptUrl, {
+      await fetch(scriptUrl, {
         method: 'POST',
         mode: 'no-cors',
         headers: {
@@ -78,7 +78,7 @@ const DataScienceCourse = () => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e
   ) => {
     setFormData({
       ...formData,
@@ -88,7 +88,7 @@ const DataScienceCourse = () => {
 
   const syllabus = [
     {
-      day: 1,
+      week: 1,
       title: 'Data Science Fundamentals',
       icon: Database,
       image: 'https://images.pexels.com/photos/3913021/pexels-photo-3913021.jpeg',
@@ -101,7 +101,7 @@ const DataScienceCourse = () => {
       handsOn: 'Sales data analysis, customer segmentation, data cleaning project'
     },
     {
-      day: 2,
+      week: 2,
       title: 'Data Visualization & Analysis',
       icon: BarChart3,
       image: 'https://images.pexels.com/photos/3912469/pexels-photo-3912469.jpeg',
@@ -114,7 +114,7 @@ const DataScienceCourse = () => {
       handsOn: 'Interactive dashboards, statistical reports, visualization portfolio'
     },
     {
-      day: 3,
+      week: 3,
       title: 'Machine Learning Basics',
       icon: Brain,
       image: 'https://images.pexels.com/photos/5952738/pexels-photo-5952738.jpeg',
@@ -127,7 +127,7 @@ const DataScienceCourse = () => {
       handsOn: 'Prediction models, classification projects, regression analysis'
     },
     {
-      day: 4,
+      week: 4,
       title: 'Advanced Analytics & Power BI',
       icon: FileText,
       image: 'https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg',
@@ -191,12 +191,12 @@ const DataScienceCourse = () => {
                 <span className="text-white">Master Data Science in</span>
                 <br />
                 <span className="bg-gradient-to-r from-purple-400 to-blue-300 bg-clip-text text-transparent">
-                  Just 4 Days
+                  Just 4 weeks
                 </span>
               </h1>
               
               <p className="text-xl lg:text-2xl text-gray-300 mb-2 font-semibold">
-                From Data Analysis to Machine Learning
+                From Data Analysis to Data Science
               </p>
               
               <p className="text-lg text-gray-400 mb-8">
@@ -205,10 +205,10 @@ const DataScienceCourse = () => {
 
               {/* Price */}
               <div className="flex items-center justify-center lg:justify-start space-x-4 mb-8">
-                <div className="text-4xl font-bold text-purple-400">₹2499</div>
-                <div className="text-2xl text-gray-500 line-through">₹5000</div>
+                <div className="text-4xl font-bold text-purple-400">₹7999</div>
+                <div className="text-2xl text-gray-500 line-through">₹15000</div>
                 <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                  50% OFF
+                  54% OFF
                 </div>
               </div>
 
@@ -216,11 +216,11 @@ const DataScienceCourse = () => {
               <div className="flex flex-col sm:flex-row gap-6 mb-8 justify-center lg:justify-start">
                 <div className="flex items-center text-gray-300">
                   <Clock className="h-5 w-5 text-purple-400 mr-2" />
-                  4 Saturdays
+                  Just 4 Saturdays
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Users className="h-5 w-5 text-purple-400 mr-2" />
-                  85+ Students
+                  14+ Students
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Star className="h-5 w-5 text-yellow-400 mr-2" />
@@ -267,7 +267,7 @@ const DataScienceCourse = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
               Course Syllabus –
               <span className="bg-gradient-to-r from-purple-400 to-blue-300 bg-clip-text text-transparent">
-                {' '}4 Days Intensive Training
+                {' '}4 Days Intensive Training On Weekends
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -276,18 +276,18 @@ const DataScienceCourse = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {syllabus.map((day, index) => {
-              const Icon = day.icon;
+            {syllabus.map((week, index) => {
+              const Icon = week.icon;
               return (
                 <div
-                  key={day.day}
+                  key={week.week}
                   className="bg-gray-800 rounded-2xl border border-gray-700 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 overflow-hidden"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
                   <div className="relative h-48">
                     <img
-                      src={day.image}
-                      alt={`Day ${day.day} - ${day.title}`}
+                      src={week.image}
+                      alt={`Week ${week.week} - ${week.title}`}
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-transparent"></div>
@@ -299,10 +299,10 @@ const DataScienceCourse = () => {
                     <div className="absolute bottom-4 left-4 right-4">
                       <div className="flex items-center space-x-3 mb-2">
                         <span className="bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                          Day {day.day}
+                          Week {week.week}
                         </span>
                       </div>
-                      <h3 className="text-2xl font-bold text-white">{day.title}</h3>
+                      <h3 className="text-2xl font-bold text-white">{week.title}</h3>
                     </div>
                   </div>
 
@@ -310,7 +310,7 @@ const DataScienceCourse = () => {
                     <div className="mb-4">
                       <h4 className="text-white font-semibold mb-3">Topics Covered:</h4>
                       <ul className="space-y-2">
-                        {day.topics.map((topic, i) => (
+                        {week.topics.map((topic, i) => (
                           <li key={i} className="flex items-start text-gray-300 text-sm">
                             <CheckCircle className="h-4 w-4 text-purple-400 mr-2 mt-0.5 flex-shrink-0" />
                             {topic}
@@ -321,7 +321,7 @@ const DataScienceCourse = () => {
 
                     <div className="bg-gray-700 p-4 rounded-xl">
                       <h4 className="text-purple-400 font-semibold mb-2 text-sm">Hands-on Practice:</h4>
-                      <p className="text-gray-300 text-sm">{day.handsOn}</p>
+                      <p className="text-gray-300 text-sm">{week.handsOn}</p>
                     </div>
                   </div>
                 </div>
@@ -433,10 +433,10 @@ const DataScienceCourse = () => {
                   <div className="text-center">
                     <div className="text-sm text-purple-400 font-medium mb-2">Special Launch Price</div>
                     <div className="flex items-center justify-center space-x-4 mb-2">
-                      <span className="text-3xl font-bold text-white">₹2499</span>
-                      <span className="text-xl text-gray-400 line-through">₹5000</span>
+                      <span className="text-3xl font-bold text-white">₹7999</span>
+                      <span className="text-xl text-gray-400 line-through">₹15000</span>
                     </div>
-                    <div className="text-sm text-gray-300">Save ₹2501 (50% discount)</div>
+                    <div className="text-sm text-gray-300">Save ₹7001 (54% discount)</div>
                   </div>
                 </div>
               </div>
@@ -581,7 +581,7 @@ const DataScienceCourse = () => {
                 href="#enrollment-form"
                 className="px-8 py-4 bg-gradient-to-r from-purple-500 to-blue-400 text-white rounded-full font-semibold text-lg hover:from-purple-600 hover:to-blue-500 transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-purple-500/50 flex items-center"
               >
-                Enroll Now - ₹2499
+                Enroll Now - ₹7999
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
               
@@ -593,7 +593,7 @@ const DataScienceCourse = () => {
             <div className="mt-8 flex items-center justify-center space-x-8 text-gray-400 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-purple-400 mr-2" />
-                30-day money back guarantee
+                7-day money back guarantee
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-purple-400 mr-2" />

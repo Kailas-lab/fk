@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
             <div className="inline-flex items-center px-4 py-2 bg-emerald-900/50 rounded-full text-emerald-400 text-sm font-medium mb-6 backdrop-blur-sm border border-emerald-800">
               <img 
-                src="/fk_final_logo.png"
+                src="/logo.webp"
                 alt="Future Key" 
                 className="h-4 w-auto mr-2"
               />
@@ -78,15 +78,17 @@ const Hero = () => {
 
           {/* Hero Image */}
           <div className="lg:w-1/2 flex justify-center">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
-              <div className="relative bg-white p-8 rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500">
-                <img
-                  src="/fk_final_logo.png"
-                  alt="Future Key Logo"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
+    <div className="relative">
+        <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-green-400 rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
+        {/* Removed bg-white from here */}
+        <div className="relative p-8 rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500">
+            <img
+                src="aa.png"
+                alt="Future Key Logo"
+                className="w-full h-auto object-contain"
+            />
+        </div>
+   
               
               {/* Floating Elements */}
               <div className="absolute -top-6 -left-6 bg-gradient-to-r from-emerald-500 to-green-400 p-4 rounded-2xl shadow-lg animate-bounce">
