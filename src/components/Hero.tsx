@@ -83,7 +83,7 @@ const Hero = () => {
         {/* Removed bg-white from here */}
         <div className="relative p-8 rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500">
             <img
-                src="aa.webp"
+                src="/aa.webp"
                 alt="Future Key Logo"
                 className="w-full h-auto object-contain"
             />
