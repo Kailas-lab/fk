@@ -16,7 +16,7 @@ const CTABanner = () => {
           {/* Icon */}
           <div className="flex items-center justify-center mb-6">
             <img 
-              src="public\fkbg.webp" 
+              src="/fkbg.webp" 
               alt="Future Key Logo" 
               className="h-16 w-auto"
             />

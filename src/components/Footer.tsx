@@ -11,11 +11,11 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
               <img
-                src="public/logo.webp"
+                src="/logo.webp"
                 alt="Future Key Logo"
                 className="h-12 w-auto"
               />
-              <p className="text-white text-sm">Future Key</p>
+              <h2 className="text-white text-sm">Future Key</h2>
             </Link>
 
             <p className="text-white text-sm leading-relaxed">
