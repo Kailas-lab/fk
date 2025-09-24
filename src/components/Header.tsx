@@ -55,7 +55,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             <Link to="/" className="flex items-center space-x-2 group">
               <img
-                src="public/logo.webp"
+                src="/logo.webp"
                 alt="logo"
                 className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
               />
