@@ -84,7 +84,7 @@ const CTABanner = () => {
             </div>
             <div className="hidden sm:block w-px h-12 bg-gray-700"></div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-emerald-400">55+</div>
+              <div className="text-2xl font-bold text-emerald-400">150+</div>
               <div className="text-sm">Happy Students</div>
             </div>
           </div>

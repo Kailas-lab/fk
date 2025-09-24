@@ -183,7 +183,7 @@ const GenAICourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-indigo-900/50 rounded-full text-indigo-400 text-sm font-medium mb-6 backdrop-blur-sm border border-indigo-800">
                 <img 
-                  src="/fk_final_logo_key.png" 
+                  src="/logo.webp" 
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
@@ -203,15 +203,15 @@ const GenAICourse = () => {
               </p>
               
               <p className="text-lg text-gray-400 mb-8">
-                4 Days Intensive | RAG, Agents & more | Hands-on Projects
+                4 weeks Intensive | RAG, Agents & more | Hands-on Projects
               </p>
 
               {/* Price */}
               <div className="flex items-center justify-center lg:justify-start space-x-4 mb-8">
-                <div className="text-4xl font-bold text-indigo-400">₹2499</div>
-                <div className="text-2xl text-gray-500 line-through">₹5000</div>
+                <div className="text-4xl font-bold text-indigo-400">₹3299</div>
+                <div className="text-2xl text-gray-500 line-through">₹6000</div>
                 <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
-                  50% OFF
+                  45% OFF
                 </div>
               </div>
 
@@ -219,11 +219,11 @@ const GenAICourse = () => {
               <div className="flex flex-col sm:flex-row gap-6 mb-8 justify-center lg:justify-start">
                 <div className="flex items-center text-gray-300">
                   <Clock className="h-5 w-5 text-indigo-400 mr-2" />
-                  4 Saturdays
+                  Just 4 Saturdays
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Users className="h-5 w-5 text-indigo-400 mr-2" />
-                  34+ Students
+                  21+ Students
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Star className="h-5 w-5 text-yellow-400 mr-2" />
@@ -270,7 +270,7 @@ const GenAICourse = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
               Course Syllabus –
               <span className="bg-gradient-to-r from-indigo-400 to-violet-300 bg-clip-text text-transparent">
-                {' '}4 Days Intensive Training
+                {' '}4 Days Intensive Training On weekends
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -436,10 +436,10 @@ const GenAICourse = () => {
                   <div className="text-center">
                     <div className="text-sm text-indigo-400 font-medium mb-2">Special Launch Price</div>
                     <div className="flex items-center justify-center space-x-4 mb-2">
-                      <span className="text-3xl font-bold text-white">₹2499</span>
-                      <span className="text-xl text-gray-400 line-through">₹5000</span>
+                      <span className="text-3xl font-bold text-white">₹3299</span>
+                      <span className="text-xl text-gray-400 line-through">₹6000</span>
                     </div>
-                    <div className="text-sm text-gray-300">Save ₹2501 (50% discount)</div>
+                    <div className="text-sm text-gray-300">Save ₹2701 (45% discount)</div>
                   </div>
                 </div>
               </div>
@@ -576,7 +576,7 @@ const GenAICourse = () => {
               Ready to Build the Next Generation of AI Apps?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Join 34+ students who are already shaping the future with Generative AI
+              Join 21+ students who are already shaping the future with Generative AI
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -584,7 +584,7 @@ const GenAICourse = () => {
                 href="#enrollment-form"
                 className="px-8 py-4 bg-gradient-to-r from-indigo-500 to-violet-400 text-white rounded-full font-semibold text-lg hover:from-indigo-600 hover:to-violet-500 transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-indigo-500/50 flex items-center"
               >
-                Enroll Now - ₹2499
+                Enroll Now - ₹3299
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
               
@@ -596,7 +596,7 @@ const GenAICourse = () => {
             <div className="mt-8 flex items-center justify-center space-x-8 text-gray-400 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-indigo-400 mr-2" />
-                30-day money back guarantee
+                7-day money back guarantee
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-indigo-400 mr-2" />

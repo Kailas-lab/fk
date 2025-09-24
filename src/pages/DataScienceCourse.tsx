@@ -180,7 +180,7 @@ const DataScienceCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-purple-900/50 rounded-full text-purple-400 text-sm font-medium mb-6 backdrop-blur-sm border border-purple-800">
                 <img 
-                  src="/fk_final_logo_key.png" 
+                  src="/logo.webp" 
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
@@ -220,7 +220,7 @@ const DataScienceCourse = () => {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Users className="h-5 w-5 text-purple-400 mr-2" />
-                  14+ Students
+                  20+ Students
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Star className="h-5 w-5 text-yellow-400 mr-2" />

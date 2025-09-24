@@ -179,7 +179,7 @@ const DigitalMarketingCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-orange-900/50 rounded-full text-orange-400 text-sm font-medium mb-6 backdrop-blur-sm border border-orange-800">
                 <img 
-                  src="/fk_final_logo_key.png" 
+                  src="/logo.webp" 
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
@@ -190,7 +190,7 @@ const DigitalMarketingCourse = () => {
                 <span className="text-white">Master Digital Marketing in</span>
                 <br />
                 <span className="bg-gradient-to-r from-orange-400 to-yellow-300 bg-clip-text text-transparent">
-                  Just 4 Days
+                  Just 4 Weeks
                 </span>
               </h1>
               
@@ -215,11 +215,11 @@ const DigitalMarketingCourse = () => {
               <div className="flex flex-col sm:flex-row gap-6 mb-8 justify-center lg:justify-start">
                 <div className="flex items-center text-gray-300">
                   <Clock className="h-5 w-5 text-orange-400 mr-2" />
-                  4 Saturdays
+                  Weekdays / Weekends
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Users className="h-5 w-5 text-orange-400 mr-2" />
-                  76+ Students
+                  10+ Students
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Star className="h-5 w-5 text-yellow-400 mr-2" />
@@ -266,7 +266,7 @@ const DigitalMarketingCourse = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
               Course Syllabus –
               <span className="bg-gradient-to-r from-orange-400 to-yellow-300 bg-clip-text text-transparent">
-                {' '}4 Days Comprehensive Training
+                {' '}4 Weeks Comprehensive Training
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -392,7 +392,7 @@ const DigitalMarketingCourse = () => {
                     </div>
                     <div>
                       <h4 className="text-white font-semibold">Duration</h4>
-                      <p className="text-gray-300 text-sm">4 Saturdays, 2 hours per day</p>
+                      <p className="text-gray-300 text-sm">4 weeks, 2 hours per day</p>
                     </div>
                   </div>
 
@@ -572,7 +572,7 @@ const DigitalMarketingCourse = () => {
               Ready to Master Digital Marketing?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Join 76+ students who have already grown their businesses with our marketing strategies
+              Join 10+ students who have already grown their businesses with our marketing strategies
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -592,7 +592,7 @@ const DigitalMarketingCourse = () => {
             <div className="mt-8 flex items-center justify-center space-x-8 text-gray-400 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-orange-400 mr-2" />
-                30-day money back guarantee
+                7-day money back guarantee
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-orange-400 mr-2" />

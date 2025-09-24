@@ -180,7 +180,7 @@ const MachineLearningCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-pink-900/50 rounded-full text-pink-400 text-sm font-medium mb-6 backdrop-blur-sm border border-pink-800">
                 <img 
-                  src="/fk_final_logo_key.png" 
+                  src="/logo.webp" 
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
@@ -191,7 +191,7 @@ const MachineLearningCourse = () => {
                 <span className="text-white">Master AI & ML in</span>
                 <br />
                 <span className="bg-gradient-to-r from-pink-400 to-red-300 bg-clip-text text-transparent">
-                  Just 4 Days
+                  Just 4 Weeks
                 </span>
               </h1>
               
@@ -205,8 +205,8 @@ const MachineLearningCourse = () => {
 
               {/* Price */}
               <div className="flex items-center justify-center lg:justify-start space-x-4 mb-8">
-                <div className="text-4xl font-bold text-pink-400">₹2499</div>
-                <div className="text-2xl text-gray-500 line-through">₹5000</div>
+                <div className="text-4xl font-bold text-pink-400">₹5999</div>
+                <div className="text-2xl text-gray-500 line-through">₹12000</div>
                 <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
                   50% OFF
                 </div>
@@ -216,7 +216,7 @@ const MachineLearningCourse = () => {
               <div className="flex flex-col sm:flex-row gap-6 mb-8 justify-center lg:justify-start">
                 <div className="flex items-center text-gray-300">
                   <Clock className="h-5 w-5 text-pink-400 mr-2" />
-                  4 Saturdays
+                  Just 4 Saturdays
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Users className="h-5 w-5 text-pink-400 mr-2" />
@@ -267,7 +267,7 @@ const MachineLearningCourse = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
               Course Syllabus –
               <span className="bg-gradient-to-r from-pink-400 to-red-300 bg-clip-text text-transparent">
-                {' '}4 Days Advanced Training
+                {' '}4 Days Advanced Training On Weekends
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -433,10 +433,10 @@ const MachineLearningCourse = () => {
                   <div className="text-center">
                     <div className="text-sm text-pink-400 font-medium mb-2">Advanced Course Price</div>
                     <div className="flex items-center justify-center space-x-4 mb-2">
-                      <span className="text-3xl font-bold text-white">₹2499</span>
-                      <span className="text-xl text-gray-400 line-through">₹5000</span>
+                      <span className="text-3xl font-bold text-white">₹5999</span>
+                      <span className="text-xl text-gray-400 line-through">₹12000</span>
                     </div>
-                    <div className="text-sm text-gray-300">Save ₹2501 (50% discount)</div>
+                    <div className="text-sm text-gray-300">Save ₹6001 (50% discount)</div>
                   </div>
                 </div>
               </div>
@@ -581,7 +581,7 @@ const MachineLearningCourse = () => {
                 href="#enrollment-form"
                 className="px-8 py-4 bg-gradient-to-r from-pink-500 to-red-400 text-white rounded-full font-semibold text-lg hover:from-pink-600 hover:to-red-500 transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-pink-500/50 flex items-center"
               >
-                Enroll Now - ₹2499
+                Enroll Now - ₹5999
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
               
@@ -593,7 +593,7 @@ const MachineLearningCourse = () => {
             <div className="mt-8 flex items-center justify-center space-x-8 text-gray-400 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-pink-400 mr-2" />
-                30-day money back guarantee
+                7-day money back guarantee
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-pink-400 mr-2" />

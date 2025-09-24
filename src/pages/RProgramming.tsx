@@ -183,7 +183,7 @@ const RProgrammingCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-sky-900/50 rounded-full text-sky-400 text-sm font-medium mb-6 backdrop-blur-sm border border-sky-800">
                 <img 
-                  src="/fk_final_logo_key.png" 
+                  src="/logo.webp" 
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
@@ -203,7 +203,7 @@ const RProgrammingCourse = () => {
               </p>
               
               <p className="text-lg text-gray-400 mb-8">
-                4 Days Intensive | Tidyverse, ggplot2 & more | Hands-on Practice
+                4 Weeks Intensive | Tidyverse, ggplot2 & more | Hands-on Practice
               </p>
 
               {/* Price */}
@@ -223,7 +223,7 @@ const RProgrammingCourse = () => {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Users className="h-5 w-5 text-sky-400 mr-2" />
-                  34+ Students
+                  3+ Students
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Star className="h-5 w-5 text-yellow-400 mr-2" />
@@ -270,7 +270,7 @@ const RProgrammingCourse = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
               Course Syllabus –
               <span className="bg-gradient-to-r from-sky-400 to-blue-300 bg-clip-text text-transparent">
-                {' '}4 Days Intensive Training
+                {' '}4 Days Intensive Training On weekends
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -576,7 +576,7 @@ const RProgrammingCourse = () => {
               Ready to Start Your Journey in Data Science?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Join 34+ students who have already gained a competitive edge with our R Programming course
+              Join 3+ students who have already gained a competitive edge with our R Programming course
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -596,7 +596,7 @@ const RProgrammingCourse = () => {
             <div className="mt-8 flex items-center justify-center space-x-8 text-gray-400 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-sky-400 mr-2" />
-                30-day money back guarantee
+                7-day money back guarantee
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-sky-400 mr-2" />

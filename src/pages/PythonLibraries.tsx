@@ -183,7 +183,7 @@ const PythonLibrariesCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-purple-900/50 rounded-full text-purple-400 text-sm font-medium mb-6 backdrop-blur-sm border border-purple-800">
                 <img 
-                  src="/fk_final_logo_key.png" 
+                  src="/logo.webp" 
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
@@ -208,8 +208,8 @@ const PythonLibrariesCourse = () => {
 
               {/* Price */}
               <div className="flex items-center justify-center lg:justify-start space-x-4 mb-8">
-                <div className="text-4xl font-bold text-purple-400">₹2499</div>
-                <div className="text-2xl text-gray-500 line-through">₹5000</div>
+                <div className="text-4xl font-bold text-purple-400">₹4999</div>
+                <div className="text-2xl text-gray-500 line-through">₹10000</div>
                 <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
                   50% OFF
                 </div>
@@ -223,7 +223,7 @@ const PythonLibrariesCourse = () => {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Users className="h-5 w-5 text-purple-400 mr-2" />
-                  34+ Students
+                  17+ Students
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Star className="h-5 w-5 text-yellow-400 mr-2" />
@@ -270,7 +270,7 @@ const PythonLibrariesCourse = () => {
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
               Course Syllabus –
               <span className="bg-gradient-to-r from-purple-400 to-fuchsia-300 bg-clip-text text-transparent">
-                {' '}4 Days Intensive Training
+                {' '}4 Days Intensive Training On Weekends
               </span>
             </h2>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -436,10 +436,10 @@ const PythonLibrariesCourse = () => {
                   <div className="text-center">
                     <div className="text-sm text-purple-400 font-medium mb-2">Special Launch Price</div>
                     <div className="flex items-center justify-center space-x-4 mb-2">
-                      <span className="text-3xl font-bold text-white">₹2499</span>
-                      <span className="text-xl text-gray-400 line-through">₹5000</span>
+                      <span className="text-3xl font-bold text-white">₹4999</span>
+                      <span className="text-xl text-gray-400 line-through">₹10000</span>
                     </div>
-                    <div className="text-sm text-gray-300">Save ₹2501 (50% discount)</div>
+                    <div className="text-sm text-gray-300">Save ₹5001 (50% discount)</div>
                   </div>
                 </div>
               </div>
@@ -576,7 +576,7 @@ const PythonLibrariesCourse = () => {
               Ready to Accelerate Your Data Science Career?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Join 34+ students who have already mastered the core tools of data analysis with Python
+              Join 17+ students who have already mastered the core tools of data analysis with Python
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -584,7 +584,7 @@ const PythonLibrariesCourse = () => {
                 href="#enrollment-form"
                 className="px-8 py-4 bg-gradient-to-r from-purple-500 to-fuchsia-400 text-white rounded-full font-semibold text-lg hover:from-purple-600 hover:to-fuchsia-500 transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-purple-500/50 flex items-center"
               >
-                Enroll Now - ₹2499
+                Enroll Now - ₹4999
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
               
@@ -596,7 +596,7 @@ const PythonLibrariesCourse = () => {
             <div className="mt-8 flex items-center justify-center space-x-8 text-gray-400 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-purple-400 mr-2" />
-                30-day money back guarantee
+                7-day money back guarantee
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-4 w-4 text-purple-400 mr-2" />
