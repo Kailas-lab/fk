@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { 
-  ArrowRight, 
-  Clock, 
-  Users, 
-  Star, 
-  CheckCircle, 
-  BookOpen, 
-  Code, 
-  FileText, 
+import {
+  ArrowRight,
+  Clock,
+  Users,
+  Star,
+  CheckCircle,
+  BookOpen,
+  Code,
+  FileText,
   Layers,
   User,
   Send,
@@ -59,22 +59,22 @@ const PythonCourse = () => {
       });
 
       setIsSubmitted(true);
-      setFormData({ 
-        name: '', 
-        email: '', 
-        phone: '', 
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
         subject: 'Python Programming Course Enrollment',
-        message: 'I would like to enroll in the Python Programming Fundamentals course.' 
+        message: 'I would like to enroll in the Python Programming Fundamentals course.'
       });
     } catch (error) {
       console.error('Error submitting form:', error);
       setIsSubmitted(true);
-      setFormData({ 
-        name: '', 
-        email: '', 
-        phone: '', 
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
         subject: 'Python Programming Course Enrollment',
-        message: 'I would like to enroll in the Python Programming Fundamentals course.' 
+        message: 'I would like to enroll in the Python Programming Fundamentals course.'
       });
     }
   };
@@ -181,14 +181,15 @@ const PythonCourse = () => {
             {/* Content */}
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-emerald-900/50 rounded-full text-emerald-400 text-sm font-medium mb-6 backdrop-blur-sm border border-emerald-800">
-                <img 
-                  src="/name.png"
-                  alt="Future Key" 
+                <img
+                  // CHANGE THIS LINE
+                  src={logo} // Use the imported 'logo' variable here
+                  alt="Future Key"
                   className="h-4 w-auto mr-2"
                 />
                 Python Programming Fundamentals
               </div>
-              
+
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
                 <span className="text-white">Master Python in</span>
                 <br />
@@ -196,11 +197,11 @@ const PythonCourse = () => {
                   Just 4 Weeks
                 </span>
               </h1>
-              
+
               <p className="text-xl lg:text-2xl text-gray-300 mb-2 font-semibold">
                 No prior knowledge is required
               </p>
-              
+
               <p className="text-lg text-gray-400 mb-8">
                 2 Hours per Day | Basics to Advanced | Hands-on Practice
               </p>
@@ -248,7 +249,7 @@ const PythonCourse = () => {
                   alt="Teacher teaching Python programming in classroom"
                   className="relative rounded-3xl shadow-2xl max-w-md lg:max-w-lg hover:scale-105 transition-transform duration-500"
                 />
-                
+
                 {/* Floating Elements */}
                 <div className="absolute -top-4 -left-4 bg-gradient-to-r from-emerald-500 to-green-400 p-3 rounded-2xl shadow-lg animate-bounce">
                   <Code className="h-6 w-6 text-white" />
@@ -387,7 +388,7 @@ const PythonCourse = () => {
               {/* Course Highlights */}
               <div className="bg-gray-800 rounded-2xl p-8 border border-gray-700">
                 <h3 className="text-2xl font-bold text-white mb-6">Course Highlights</h3>
-                
+
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <div className="p-2 bg-gradient-to-r from-emerald-500 to-green-400 rounded-lg">
@@ -577,7 +578,7 @@ const PythonCourse = () => {
             <p className="text-xl text-gray-300 mb-8">
               Join 34+ students who have already transformed their careers with our Python course
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a
                 href="#enrollment-form"
@@ -586,7 +587,7 @@ const PythonCourse = () => {
                 Enroll Now - ₹4999
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
-              
+
               <div className="text-sm text-gray-400">
                 💳 Secure payment | 📞 24/7 support | 🎓 Certificate included
               </div>
