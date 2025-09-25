@@ -18,6 +18,8 @@ import {
   TrendingUp
 } from 'lucide-react';
 
+import logo from "../assets/logo.webp";
+
 const PythonCourse = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -180,7 +182,7 @@ const PythonCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-emerald-900/50 rounded-full text-emerald-400 text-sm font-medium mb-6 backdrop-blur-sm border border-emerald-800">
                 <img 
-                  src="/logo.webp" 
+                  src={logo}
                   alt="Future Key" 
                   className="h-4 w-auto mr-2"
                 />
