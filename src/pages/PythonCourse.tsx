@@ -182,7 +182,7 @@ const PythonCourse = () => {
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-emerald-900/50 rounded-full text-emerald-400 text-sm font-medium mb-6 backdrop-blur-sm border border-emerald-800">
                 
-                Python Programming Fundamentals
+                Python Programming Fundamental
               </div>
 
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
